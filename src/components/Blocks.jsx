@@ -89,7 +89,7 @@ export function RouteMap() {
   return (
     <div ref={ref} className={`routemap ${inView ? 'is-in' : ''}`}>
       <svg viewBox="0 0 960 460" className="routemap__svg" role="img" aria-labelledby="rm-title rm-desc">
-        <title id="rm-title">Baba Travels route network</title>
+        <title id="rm-title">Haque Travel & Tours route network</title>
         <desc id="rm-desc">Routes from Karachi, Lahore and Islamabad to Jeddah, Madinah, Dubai, Istanbul, London, Toronto, Kuala Lumpur, Bangkok, Baku and Malé.</desc>
         <g className="routemap__dots">{dots.map(([x, y], i) => <circle key={i} cx={x} cy={y} r="1.6" />)}</g>
         {CITIES.map((c, i) => {

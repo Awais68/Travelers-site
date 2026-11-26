@@ -29,15 +29,8 @@ export function WhatsAppIcon({ size = 20 }) {
 export function Logo() {
   return (
     <span className="logo">
-      <svg className="logo__mark" viewBox="0 0 40 40" aria-hidden="true">
-        <rect width="40" height="40" rx="11" fill="currentColor" className="logo__bg" />
-        <path d="M8 28c7-1.4 12.6-7 15.4-15.4l4.2 2.8C24.8 23.8 17.8 30.8 8 32z" fill="#F5A524" />
-        <circle cx="29" cy="11" r="3.5" fill="#3DD6B5" />
-      </svg>
-      <span className="logo__text">
-        <span className="logo__name">Baba Travels</span>
-        <span className="logo__sub">&amp; Tours</span>
-      </span>
+      <img className="logo__img" src="/images/haque-logo.png" alt="Haque Travel & Tours"
+        width="580" height="240" decoding="async" />
     </span>
   )
 }

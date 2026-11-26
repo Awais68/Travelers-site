@@ -224,7 +224,7 @@ export default function HeroCarousel() {
 
       {/* CENTER text */}
       <div className="hero__center container">
-        <h1 className="hero__h1"><span className="hero__h1-dot" aria-hidden="true" />Baba Travels &amp; Tours — flights, Umrah &amp; tours from Pakistan</h1>
+        <h1 className="hero__h1"><span className="hero__h1-dot" aria-hidden="true" />Haque Travel &amp; Tours — flights, Umrah &amp; tours from Pakistan</h1>
         <p className="hero__place" key={`p-${active}`}><Icon name="MapPin" size={16} />{slide.place}</p>
         <p className="hero__display" aria-live="polite" key={`t-${active}`}>
           {words.map((w, i) => (

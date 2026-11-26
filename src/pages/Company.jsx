@@ -11,13 +11,13 @@ export function About() {
   const crumbs = [{ label: 'Home', to: '/' }, { label: 'About', to: '/about' }]
   return (
     <>
-      <Seo title="About Baba Travels & Tours" path="/about" description={`${SITE.name} has helped Pakistani families, pilgrims and companies travel since ${SITE.founded}, with offices in Karachi, Lahore and Islamabad.`}
+      <Seo title="About Haque Travel & Tours" path="/about" description={`${SITE.name} has helped Pakistani families, pilgrims and companies travel since ${SITE.founded}, with offices in Karachi, Lahore and Islamabad.`}
         lcp="hunza" schema={[orgSchema(), breadcrumbSchema(crumbs)]} />
       <PageHero img="hunza" eyebrow="About us" title="We’ve been sending Pakistan around the world since 2010" crumbs={<Breadcrumbs items={crumbs} />} />
       <section className="section container about">
         <div className="about__grid">
           <div>
-            <h2 className="detail__h2">Who is Baba Travels &amp; Tours?</h2>
+            <h2 className="detail__h2">Who is Haque Travel &amp; Tours?</h2>
             <p className="answer answer--boxed">{SITE.name} is a family-run travel agency founded in Karachi in {SITE.founded}. We plan Umrah journeys, northern Pakistan tours, international holidays and business travel for families, pilgrims and companies, and support Pakistanis abroad travelling home from the UK, Gulf and Canada.</p>
             <p className="prose">What started as a small ticketing desk is now a team of advisors across three Pakistani cities and partner desks in Dubai, Jeddah and Istanbul. The idea hasn’t changed: answer the phone, explain the price, and stay with travellers until they’re home. {/* CONFIRM story with client */}</p>
           </div>

@@ -14,7 +14,7 @@ export default function Destination() {
   if (!d) return <NotFound />
   const crumbs = [{ label: 'Home', to: '/' }, { label: 'Destinations', to: '/packages' }, { label: d.name, to: `/destinations/${d.slug}` }]
   const faqs = [
-    { q: `How much does a ${d.name} tour cost from Pakistan?`, a: `${d.name} packages with Baba Travels start from ${d.from} per person for ${d.days}, including hotels and transport. Private family tours are quoted on request.` },
+    { q: `How much does a ${d.name} tour cost from Pakistan?`, a: `${d.name} packages with Haque Travel & Tours start from ${d.from} per person for ${d.days}, including hotels and transport. Private family tours are quoted on request.` },
     { q: `What is the best time to visit ${d.name}?`, a: `${d.best}.` },
     { q: `How do I get to ${d.name}?`, a: `${d.reach}.` },
   ]
@@ -39,7 +39,7 @@ export default function Destination() {
           <KeyFacts title={`${d.name} at a glance`} facts={[['Duration', d.days], ['Price from', `${d.from} / person`], ['Best time', d.best], ['Getting there', d.reach]]} />
           <div className="office glass" itemScope itemType="https://schema.org/TravelAgency">
             <h2 className="facts__title">Book with our {office.city} office</h2>
-            <p itemProp="name"><strong>Baba Travels &amp; Tours — {office.city}</strong></p>
+            <p itemProp="name"><strong>Haque Travel &amp; Tours — {office.city}</strong></p>
             <p itemProp="address"><Icon name="MapPin" size={15} />{office.address}</p>
             <p><Icon name="Phone" size={15} /><a href={`tel:${office.phone.replace(/\s/g, '')}`} itemProp="telephone">{office.phone}</a></p>
             <p><Icon name="Clock" size={15} />{office.hours}</p>

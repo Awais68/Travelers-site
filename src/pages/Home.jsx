@@ -32,7 +32,7 @@ export default function Home() {
         <div className="intro__grid">
           <SectionHead eyebrow="Who we are" id="intro-title" title={<>A Pakistani travel agency with a <em>worldwide</em> reach.</>} />
           <p className="answer" data-reveal>
-            <strong>Baba Travels &amp; Tours</strong> is a travel agency in Karachi, Lahore and Islamabad that books air tickets, Umrah and Hajj packages, northern Pakistan tours, international holidays, visas, hotels, car rental and airport transfers. Travellers get a free quote in about 30 minutes, clear prices in PKR, and 24/7 WhatsApp support from departure to return.
+            <strong>Haque Travel &amp; Tours</strong> is a travel agency in Karachi, Lahore and Islamabad that books air tickets, Umrah and Hajj packages, northern Pakistan tours, international holidays, visas, hotels, car rental and airport transfers. Travellers get a free quote in about 30 minutes, clear prices in PKR, and 24/7 WhatsApp support from departure to return.
           </p>
         </div>
       </section>
@@ -87,7 +87,7 @@ export default function Home() {
             <div className="why__badge glass"><span className="why__badge-num">24/7</span><span>Real people on WhatsApp — even at 3 a.m. in Jeddah.</span></div>
           </div>
           <div>
-            <SectionHead eyebrow="Why Baba Travels" id="why-title" title={<>Travel with people who <em>pick up.</em></>} />
+            <SectionHead eyebrow="Why Haque" id="why-title" title={<>Travel with people who <em>pick up.</em></>} />
             <ul className="why__list">
               {WHY.map((w, i) => (
                 <li key={w.title} data-reveal style={{ '--rd': `${i * 60}ms` }}>
@@ -128,6 +128,38 @@ export default function Home() {
               </div>
             </article>
           ))}
+        </div>
+      </section>
+
+      {/* Brand promise — Haque advertisement */}
+      <section className="section promo" aria-labelledby="promo-title">
+        <div className="container promo__grid">
+          <figure className="promo__art" data-reveal>
+            <img src="/images/haque-journey.webp"
+              alt="Haque Travel & Tours — a family watching an aircraft take off, with the message: some journeys aren’t about places"
+              width="1080" height="1080" loading="lazy" />
+          </figure>
+          <div className="promo__body">
+            <span className="eyebrow">Your Journey, Our Passion</span>
+            <h2 className="promo__title" id="promo-title">Some journeys aren’t about <em>places.</em></h2>
+            <ul className="promo__points">
+              <li data-reveal><span className="promo__ic"><Icon name="Users" size={18} /></span><span>They’re about <strong>the people</strong> you travel with.</span></li>
+              <li data-reveal style={{ '--rd': '70ms' }}><span className="promo__ic"><Icon name="Sparkles" size={18} /></span><span>The <strong>memories</strong> you bring home.</span></li>
+              <li data-reveal style={{ '--rd': '140ms' }}><span className="promo__ic"><Icon name="Quote" size={18} /></span><span>And the <strong>stories</strong> you’ll tell for years.</span></li>
+            </ul>
+            <p className="promo__quote">“Because in the end, it’s not just the destination… it’s the journey that stays with you forever.”</p>
+            <div className="promo__ctas">
+              <Link to="/quote" className="btn btn--primary btn--lg">Where will your next story begin?<Icon name="ArrowRight" size={18} /></Link>
+            </div>
+            <ul className="promo__contact">
+              {SITE.phones.map((p) => (
+                <li key={p}><a href={`tel:${p.replace(/\s/g, '')}`}><Icon name="Phone" size={15} />{p}</a></li>
+              ))}
+              <li><a href={`mailto:${SITE.email}`}><Icon name="Mail" size={15} />{SITE.email}</a></li>
+              <li><a href={SITE.url} target="_blank" rel="noreferrer"><Icon name="Globe2" size={15} />{SITE.website}</a></li>
+              <li className="promo__addr"><Icon name="MapPin" size={15} /><span>{SITE.addressLine}</span></li>
+            </ul>
+          </div>
         </div>
       </section>
 

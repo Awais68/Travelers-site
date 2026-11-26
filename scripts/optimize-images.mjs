@@ -31,12 +31,19 @@ const VARIANTS = [
   { suffix: 'thumb', w: 480, h: 270, q: 68, max: 30 * KB },
 ]
 
-async function encodeToBudget(input, v, outPath) {
+// Per-image crop focus (sharp gravity). Default is 'centre'.
+// umrah: the Makkah source has a tall, empty night sky up top, so centre-cropping
+// to 16:9 leaves the Kaaba sitting low. Crop from the bottom to lift it up.
+const POSITION = {
+  umrah: 'bottom',
+}
+
+async function encodeToBudget(input, v, outPath, name) {
   let q = v.q
   let info
   while (true) {
     info = await sharp(input)
-      .resize(v.w, v.h, { fit: 'cover', position: 'centre', kernel: 'lanczos3' })
+      .resize(v.w, v.h, { fit: 'cover', position: POSITION[name] || 'centre', kernel: 'lanczos3' })
       .sharpen({ sigma: 0.6 })
       .webp({ quality: q, effort: 6 })
       .toFile(outPath)
@@ -56,7 +63,7 @@ for (const name of names) {
   const srcFile = fs.readdirSync(SRC).find((f) => f.replace(/\.[^.]+$/, '') === name)
   for (const v of VARIANTS) {
     const outPath = path.join(OUT, `${name}-${v.suffix}.webp`)
-    const { info, q } = await encodeToBudget(path.join(SRC, srcFile), v, outPath)
+    const { info, q } = await encodeToBudget(path.join(SRC, srcFile), v, outPath, name)
     total += info.size
     report.push(`  ${name}-${v.suffix}.webp`.padEnd(26) + `${(info.size / 1024).toFixed(1)} KB`.padStart(10) + `  q${q}`)
   }

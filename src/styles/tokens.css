@@ -1,5 +1,5 @@
-/* ── Baba Travels design tokens ─────────────────────────────
-   Mirrors the "Baba Travels & Tours" design system (tokens.json).
+/* ── Haque Travel & Tours design tokens ─────────────────────────────
+   Mirrors the "Haque Travel & Tours" design system (tokens.json).
    Dark is the signature theme; light is "Sand". All text pairs ≥ 4.5:1. */
 :root {
   --font-display: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif;

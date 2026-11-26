@@ -5,21 +5,24 @@
 // ─────────────────────────────────────────────────────────────
 
 export const SITE = {
-  name: 'Baba Travels & Tours',
-  shortName: 'Baba Travels',
-  url: 'https://www.babatravels.pk', // CONFIRM production domain
-  tagline: 'Flights, Umrah & tours — planned in Pakistan, trusted worldwide',
+  name: 'Haque Travel & Tours',
+  shortName: 'Haque Travel & Tours',
+  url: 'https://www.haque.com.pk',
+  tagline: 'Your Journey, Our Passion',
   description:
-    'Baba Travels & Tours is a Pakistan-based travel agency for air tickets, Umrah and Hajj packages, northern-area and international tours, visa assistance, hotels, car rental and airport transfers.',
-  phone: '+92 300 0000000', // CONFIRM
-  phoneHref: '+923000000000', // CONFIRM
-  whatsapp: '923000000000', // CONFIRM (international format, no +)
-  email: 'info@babatravels.pk', // CONFIRM
+    'Haque Travel & Tours (Pvt) Ltd is a Karachi-based travel agency for air tickets, Umrah and Hajj packages, northern-area and international tours, visa assistance, hotels, car rental and airport transfers.',
+  phone: '+92 332 3391628',
+  phoneHref: '+923323391628',
+  whatsapp: '923323391628', // international format, no +
+  phones: ['+92 332 3391628', '+92 330 8682472', '+92 300 8255528'],
+  email: 'info@haque.com.pk',
+  website: 'www.haque.com.pk',
+  addressLine: 'Avanti Terrace, Plot No. 148/A/2, Suite 14, Mezzanine Floor, Allama Iqbal Road, P.E.C.H.S Block-2, Karachi',
   founded: 2010, // CONFIRM
   hours: 'Mon–Sat 9:00–21:00 PKT · WhatsApp 24/7', // CONFIRM
   social: {
-    facebook: 'https://facebook.com/', // CONFIRM
-    instagram: 'https://instagram.com/', // CONFIRM
+    facebook: 'https://facebook.com/HaquePvtLtd', // CONFIRM exact page URL (page name: Haque-Pvt Ltd)
+    instagram: 'https://instagram.com/haque_pvt_ltd',
     youtube: 'https://youtube.com/', // CONFIRM
     tiktok: 'https://tiktok.com/', // CONFIRM
   },
@@ -28,7 +31,7 @@ export const SITE = {
 
 export const OFFICES = [
   // CONFIRM all addresses / phones / geo
-  { id: 'karachi', city: 'Karachi', country: 'Pakistan', label: 'Head office', address: 'Office 12, Shahrah-e-Faisal, Karachi 75400', phone: '+92 21 0000 0000', hours: 'Mon–Sat 9:00–21:00', geo: [24.8607, 67.0011] },
+  { id: 'karachi', city: 'Karachi', country: 'Pakistan', label: 'Head office', address: 'Avanti Terrace, Plot No. 148/A/2, Suite 14, Mezzanine Floor, Allama Iqbal Road, P.E.C.H.S Block-2, Karachi', phone: '+92 332 3391628', hours: 'Mon–Sat 9:00–21:00', geo: [24.8607, 67.0011] },
   { id: 'lahore', city: 'Lahore', country: 'Pakistan', label: 'Branch', address: 'Main Boulevard, Gulberg III, Lahore 54660', phone: '+92 42 0000 0000', hours: 'Mon–Sat 10:00–20:00', geo: [31.5204, 74.3587] },
   { id: 'islamabad', city: 'Islamabad', country: 'Pakistan', label: 'Branch', address: 'Blue Area, Jinnah Avenue, Islamabad 44000', phone: '+92 51 0000 0000', hours: 'Mon–Sat 10:00–20:00', geo: [33.6844, 73.0479] },
   { id: 'dubai', city: 'Dubai', country: 'UAE', label: 'Partner desk', address: 'Al Karama, Dubai, UAE', phone: '+971 4 000 0000', hours: 'Sun–Fri 10:00–19:00', geo: [25.2048, 55.2708] },
@@ -53,7 +56,7 @@ export const HERO_SLIDES = [
 export const SERVICES = [
   {
     slug: 'air-tickets', icon: 'Plane', title: 'Air tickets', short: 'Domestic & international fares on every major airline, with 24/7 rebooking help.',
-    summary: 'Baba Travels books domestic and international air tickets from Pakistan on PIA, Emirates, Qatar Airways, Saudia, Turkish Airlines and 40+ other carriers. We compare fares across airlines, hold seats while you decide, and handle date changes, refunds and baggage add-ons on WhatsApp, 24 hours a day.',
+    summary: 'Haque Travel & Tours books domestic and international air tickets from Pakistan on PIA, Emirates, Qatar Airways, Saudia, Turkish Airlines and 40+ other carriers. We compare fares across airlines, hold seats while you decide, and handle date changes, refunds and baggage add-ons on WhatsApp, 24 hours a day.',
     facts: [['Coverage', '60+ countries, all Pakistani airports'], ['Airlines', 'PIA, Emirates, Qatar, Saudia, Turkish + 40 more'], ['Booking time', 'E-ticket in 15–30 minutes'], ['Price from', 'PKR 38,500 return (KHI–DXB)'], ['Payment', 'Bank transfer, card, JazzCash, Easypaisa'], ['Support', '24/7 WhatsApp for changes']],
     includes: ['Fare comparison across 40+ airlines', 'Seat hold while you confirm', 'Group & student fares', 'Date change and refund handling', 'Extra baggage and meal requests'],
   },
@@ -101,7 +104,7 @@ export const SERVICES = [
   },
   {
     slug: 'corporate-travel', icon: 'Briefcase', title: 'Corporate travel', short: 'Monthly invoicing, policy control and a dedicated travel desk.',
-    summary: 'Baba Travels runs travel for companies with a dedicated account manager, monthly invoicing, approval workflows and negotiated airline and hotel rates. We handle conferences, team trips and executive travel, and send a monthly spend report for finance.',
+    summary: 'Haque Travel & Tours runs travel for companies with a dedicated account manager, monthly invoicing, approval workflows and negotiated airline and hotel rates. We handle conferences, team trips and executive travel, and send a monthly spend report for finance.',
     facts: [['Billing', 'Monthly credit invoicing'], ['Desk', 'Dedicated account manager'], ['Reports', 'Monthly spend report'], ['Setup time', '2 working days']],
     includes: ['Policy-based booking', 'Negotiated rates', 'MICE & conferences', 'Visa desk for staff'],
   },
@@ -126,7 +129,7 @@ export const PACKAGES = [
 
 export const DESTINATIONS = [
   {
-    slug: 'hunza-valley', name: 'Hunza Valley', region: 'Gilgit-Baltistan, Pakistan', img: 'hunza', from: 'PKR 54,900', days: '5–7 days',
+    slug: 'hunza-valley', name: 'Hunza Valley', region: 'Gilgit-Baltistan, Pakistan', img: 'hunza-autumn', from: 'PKR 54,900', days: '5–7 days',
     summary: 'A Hunza Valley tour from Islamabad takes 5 to 7 days by road along the Karakoram Highway, or 4 days if you fly to Gilgit. Packages from PKR 54,900 per person include hotels, meals, an AC coaster and a guide, and cover Karimabad, Attabad Lake, Passu Cones and the Khunjerab Pass. The best time to visit is April to October.',
     best: 'April–October (blossoms in April, autumn colour in late October)', reach: 'Road from Islamabad via KKH (~16 h over 2 days) or flight to Gilgit + 2 h drive',
     highlights: ['Baltit & Altit Forts', 'Attabad Lake boating', 'Passu Cones & suspension bridge', 'Khunjerab Pass at 4,693 m', 'Eagle’s Nest sunset'],
@@ -134,7 +137,7 @@ export const DESTINATIONS = [
     nearby: ['skardu', 'swat'],
   },
   {
-    slug: 'skardu', name: 'Skardu', region: 'Gilgit-Baltistan, Pakistan', img: 'hunza', tone: { objectPosition: '18% 50%', filter: 'hue-rotate(-28deg) saturate(1.15)' }, from: 'PKR 69,500', days: '6–8 days',
+    slug: 'skardu', name: 'Skardu', region: 'Gilgit-Baltistan, Pakistan', img: 'skardu', from: 'PKR 69,500', days: '6–8 days',
     summary: 'Skardu is the gateway to Deosai, Shangrila and the Karakoram, reachable by a 1-hour flight from Islamabad or two days by road. A 7-day Skardu package from PKR 69,500 includes hotels, meals and a jeep safari to the Deosai Plains, open June to September.',
     best: 'May–October (Deosai open June–September)', reach: '1-hour flight from Islamabad, or 2 days by road via KKH',
     highlights: ['Shangrila Resort', 'Upper Kachura Lake', 'Deosai Plains', 'Cold Desert at Katpana', 'Manthokha Waterfall'],
@@ -142,7 +145,7 @@ export const DESTINATIONS = [
     nearby: ['hunza-valley', 'swat'],
   },
   {
-    slug: 'swat', name: 'Swat & Kalam', region: 'Khyber Pakhtunkhwa, Pakistan', img: 'hunza', tone: { objectPosition: '88% 50%', filter: 'hue-rotate(75deg) saturate(.9)' }, from: 'PKR 29,900', days: '3–4 days',
+    slug: 'swat', name: 'Swat & Kalam', region: 'Khyber Pakhtunkhwa, Pakistan', img: 'swat', from: 'PKR 29,900', days: '3–4 days',
     summary: 'A Swat and Kalam tour runs 3 to 4 days from Islamabad or Lahore, covering Malam Jabba, Mingora, Kalam and Mahodand Lake. Packages start at PKR 29,900 per person with hotel, meals and transport, and are ideal for families and first-time visitors to the north.',
     best: 'April–October; Malam Jabba for snow in December–February', reach: '5–6 hours by road from Islamabad via Swat Motorway',
     highlights: ['Malam Jabba chairlift', 'Kalam valley', 'Mahodand Lake', 'Ushu Forest'],
@@ -150,7 +153,7 @@ export const DESTINATIONS = [
     nearby: ['hunza-valley', 'skardu'],
   },
   {
-    slug: 'dubai', name: 'Dubai', region: 'United Arab Emirates', img: 'dubai', from: 'PKR 119,000', days: '4–5 nights',
+    slug: 'dubai', name: 'Dubai', region: 'United Arab Emirates', img: 'dubai-city', from: 'PKR 119,000', days: '4–5 nights',
     summary: 'A Dubai holiday package from Pakistan costs from PKR 119,000 per person for 4 nights and includes the UAE visit visa, return flights from Karachi, Lahore or Islamabad, a 4-star hotel, desert safari and dhow cruise. Visas are usually processed in 3 to 5 working days.',
     best: 'November–March for pleasant weather', reach: '2–3.5 hour direct flights from all major Pakistani airports',
     highlights: ['Burj Khalifa observation deck', 'Desert safari', 'Dhow cruise dinner', 'Dubai Mall & Old Souk'],
@@ -158,7 +161,7 @@ export const DESTINATIONS = [
     nearby: ['maldives', 'hunza-valley'],
   },
   {
-    slug: 'maldives', name: 'Maldives', region: 'Indian Ocean', img: 'islands', from: 'PKR 245,000', days: '4–6 nights',
+    slug: 'maldives', name: 'Maldives', region: 'Indian Ocean', img: 'maldives', from: 'PKR 245,000', days: '4–6 nights',
     summary: 'A Maldives honeymoon package from Pakistan starts at PKR 245,000 per person for 5 nights, with flights via Dubai or Colombo, a beach or water villa, half-board meals and speedboat transfers. Pakistani passport holders receive a free 30-day visa on arrival.',
     best: 'November–April (dry season)', reach: '1 stop via Dubai, Doha or Colombo, ~8–10 hours',
     highlights: ['Water villa stay', 'Snorkelling house reefs', 'Sunset dolphin cruise', 'Sandbank picnic'],
@@ -202,8 +205,8 @@ export const TESTIMONIALS = [
 ]
 
 export const FAQS = [
-  { q: 'How much does an Umrah package from Pakistan cost?', a: 'Umrah packages with Baba Travels start from PKR 289,000 per person on a sharing basis for 14 nights, including visa, return flights, hotels and transport. Family and premium packages near the Haram range from PKR 365,000 to PKR 540,000.' },
-  { q: 'How do I book a tour or ticket with Baba Travels?', a: 'Send your dates and number of travellers through our quote form or WhatsApp. An advisor replies with options within 30 minutes during office hours. Once you confirm and pay, tickets and vouchers are sent by WhatsApp and email.' },
+  { q: 'How much does an Umrah package from Pakistan cost?', a: 'Umrah packages with Haque Travel & Tours start from PKR 289,000 per person on a sharing basis for 14 nights, including visa, return flights, hotels and transport. Family and premium packages near the Haram range from PKR 365,000 to PKR 540,000.' },
+  { q: 'How do I book a tour or ticket with Haque Travel & Tours?', a: 'Send your dates and number of travellers through our quote form or WhatsApp. An advisor replies with options within 30 minutes during office hours. Once you confirm and pay, tickets and vouchers are sent by WhatsApp and email.' },
   { q: 'Which payment methods do you accept?', a: 'We accept bank transfer, debit and credit cards, JazzCash and Easypaisa. Overseas Pakistanis can pay from the UK, UAE or Saudi Arabia by bank transfer.' },
   { q: 'Can you help with a UAE or Saudi visit visa?', a: 'Yes. We process UAE, Saudi, Turkey, Malaysia, UK and Schengen visas. UAE visit visas typically take 3–5 working days with complete documents.' },
   { q: 'When is the best time to visit Hunza and Skardu?', a: 'April to October. April brings cherry and apricot blossoms, June to September is best for Deosai and high passes, and October has autumn colours.' },
@@ -211,13 +214,13 @@ export const FAQS = [
 ]
 
 export const POSTS = [
-  { slug: 'umrah-checklist-2026', title: 'Umrah checklist 2026: documents, packing and first-day plan', excerpt: 'Everything to prepare before you fly, from Nusuk registration to what to carry in your ihram bag.', author: 'Baba Travels Umrah desk', updated: '2026-11-02', read: '7 min', img: 'umrah' },
-  { slug: 'hunza-in-autumn', title: 'Hunza in autumn: a 6-day route with the best colour', excerpt: 'Where to stay, which days to drive, and why late October beats spring for photography.', author: 'Northern tours team', updated: '2026-10-18', read: '6 min', img: 'hunza' },
-  { slug: 'dubai-visa-pakistanis', title: 'Dubai visit visa for Pakistanis: fees, timing and rejections', excerpt: 'The exact documents, current processing times and the mistakes that cause rejections.', author: 'Visa desk', updated: '2026-11-10', read: '5 min', img: 'dubai' },
+  { slug: 'umrah-checklist-2026', title: 'Umrah checklist 2026: documents, packing and first-day plan', excerpt: 'Everything to prepare before you fly, from Nusuk registration to what to carry in your ihram bag.', author: 'Haque Travel & Tours Umrah desk', updated: '2026-11-02', read: '7 min', img: 'umrah-checklist' },
+  { slug: 'hunza-in-autumn', title: 'Hunza in autumn: a 6-day route with the best colour', excerpt: 'Where to stay, which days to drive, and why late October beats spring for photography.', author: 'Northern tours team', updated: '2026-10-18', read: '6 min', img: 'hunza-autumn' },
+  { slug: 'dubai-visa-pakistanis', title: 'Dubai visit visa for Pakistanis: fees, timing and rejections', excerpt: 'The exact documents, current processing times and the mistakes that cause rejections.', author: 'Visa desk', updated: '2026-11-10', read: '5 min', img: 'dubai-visa' },
 ]
 
 export const NAV = [
-  { label: 'Services', to: '/services', mega: true },
+  { label: 'Services', to: '/services' }, // mega dropdown disabled for the time being — re-add `mega: true` to restore
   { label: 'Packages', to: '/packages' },
   { label: 'Destinations', to: '/destinations/hunza-valley', dest: true },
   { label: 'About', to: '/about' },

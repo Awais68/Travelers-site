@@ -1,4 +1,4 @@
-// Frontend ↔ Express (MERN) contract. Set VITE_API_URL to your Express server, e.g. https://api.babatravels.pk
+// Frontend ↔ Express (MERN) contract. Set VITE_API_URL to your Express server, e.g. https://api.haque.com.pk
 // Expected endpoint: POST /api/leads  → 201 { id }
 const API = import.meta.env.VITE_API_URL
 

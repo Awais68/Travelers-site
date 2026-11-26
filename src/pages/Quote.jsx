@@ -41,14 +41,14 @@ export default function Quote() {
 
   return (
     <>
-      <Seo title="Get a free travel quote" path="/quote" description="Request a free quote for flights, Umrah, tours, visas, hotels or car rental. Clear PKR prices from a Baba Travels advisor in about 30 minutes." schema={[breadcrumbSchema(crumbs)]} />
+      <Seo title="Get a free travel quote" path="/quote" description="Request a free quote for flights, Umrah, tours, visas, hotels or car rental. Clear PKR prices from a Haque Travel & Tours advisor in about 30 minutes." schema={[breadcrumbSchema(crumbs)]} />
       <section className="quote container">
         <Breadcrumbs items={crumbs} />
         <div className="quote__grid">
           <div className="quote__intro">
             <span className="eyebrow">Free quote</span>
             <h1 className="quote__title">Tell us the trip. <em>We’ll do the rest.</em></h1>
-            <p className="answer">Share four quick details and a Baba Travels advisor sends 2–3 options with full PKR prices — usually within 30 minutes during office hours. No booking fee, no obligation.</p>
+            <p className="answer">Share four quick details and a Haque Travel & Tours advisor sends 2–3 options with full PKR prices — usually within 30 minutes during office hours. No booking fee, no obligation.</p>
             <a href={waLink()} className="btn btn--wa"><WhatsAppIcon />Prefer WhatsApp?</a>
           </div>
 

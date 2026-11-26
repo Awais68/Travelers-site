@@ -14,7 +14,7 @@ export function Services() {
   return (
     <>
       <Seo title="Travel services: flights, Umrah, tours & visas" path="/services"
-        description="All Baba Travels services: air tickets, Umrah and Hajj packages, holiday tours, visa assistance, hotels, car rental, airport transfers, coach booking, corporate travel and cargo."
+        description="All Haque Travel & Tours services: air tickets, Umrah and Hajj packages, holiday tours, visa assistance, hotels, car rental, airport transfers, coach booking, corporate travel and cargo."
         lcp="skies" schema={[breadcrumbSchema(crumbs)]} />
       <PageHero img="skies" eyebrow="Services" title="Ten travel services, one team" crumbs={<Breadcrumbs items={crumbs} />}>
         <p className="phero__lead">Book flights, Umrah, tours, visas and transport in one WhatsApp thread — with a single PKR invoice.</p>
@@ -31,7 +31,7 @@ export function ServiceDetail() {
   if (!s) return <NotFound />
   const crumbs = [{ label: 'Home', to: '/' }, { label: 'Services', to: '/services' }, { label: s.title, to: `/services/${s.slug}` }]
   const faqs = [
-    { q: `How much does ${s.title.toLowerCase()} cost with Baba Travels?`, a: `${s.title} starts from ${s.facts.find(([k]) => /price/i.test(k))?.[1] || 'a clear PKR price'}. You get a full quote with taxes and fees in PKR within about 30 minutes.` },
+    { q: `How much does ${s.title.toLowerCase()} cost with Haque Travel & Tours?`, a: `${s.title} starts from ${s.facts.find(([k]) => /price/i.test(k))?.[1] || 'a clear PKR price'}. You get a full quote with taxes and fees in PKR within about 30 minutes.` },
     { q: `How do I book ${s.title.toLowerCase()}?`, a: 'Fill the quote form or message us on WhatsApp with your dates and travellers. Confirm the option you like, pay securely, and receive documents on WhatsApp and email.' },
     ...FAQS.slice(2, 4),
   ]

@@ -381,3 +381,28 @@ html:not(.js) .step, .steps.is-in .step { opacity: 1; transform: none; }
   .scard__title { font-size: 1.05rem; }
   .booking__form .field:nth-child(n) input { text-overflow: ellipsis; }
 }
+
+/* ── Brand promise / advertisement ── */
+.promo { background: var(--bg-2); border-block: 1px solid var(--surface-3); }
+.promo__grid { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(28px, 4vw, 64px); align-items: center; }
+.promo__art { margin: 0; border-radius: var(--r-lg); overflow: hidden; box-shadow: var(--shadow-lg); border: 1px solid var(--surface-3); }
+.promo__art img { display: block; width: 100%; height: auto; }
+.promo__title { margin: 14px 0 0; font: 700 clamp(1.9rem, 1.3rem + 2.4vw, 3rem)/1.02 var(--font-display); letter-spacing: -.03em; }
+.promo__title em { font-family: var(--font-serif); font-style: italic; font-weight: 400; color: var(--accent-text); }
+.promo__points { list-style: none; margin: 22px 0 0; padding: 0; display: grid; gap: 14px; }
+.promo__points li { display: flex; align-items: flex-start; gap: 12px; font-size: 1.05rem; color: var(--ink-2); }
+.promo__points strong { color: var(--ink); font-weight: 600; }
+.promo__ic { flex: none; display: grid; place-items: center; width: 34px; height: 34px; border-radius: var(--r-pill); background: var(--accent-soft); color: var(--accent-text); }
+.promo__quote { margin: 24px 0 0; padding-left: 16px; border-left: 3px solid var(--accent); font: italic 400 clamp(1.1rem, .95rem + .7vw, 1.4rem)/1.4 var(--font-serif); color: var(--ink); max-width: 46ch; }
+.promo__ctas { margin-top: 26px; }
+.promo__contact { list-style: none; margin: 28px 0 0; padding: 22px 0 0; border-top: 1px solid var(--surface-3); display: flex; flex-wrap: wrap; gap: 10px 26px; }
+.promo__contact li { font-size: .95rem; }
+.promo__contact a { display: inline-flex; align-items: center; gap: 8px; color: var(--ink-2); text-decoration: none; transition: color .2s; }
+.promo__contact a:hover { color: var(--accent-text); }
+.promo__contact svg { color: var(--accent-text); }
+.promo__addr { display: flex; align-items: flex-start; gap: 8px; color: var(--ink-3); flex-basis: 100%; }
+.promo__addr svg { flex: none; margin-top: 2px; }
+@media (max-width: 860px) {
+  .promo__grid { grid-template-columns: 1fr; }
+  .promo__art { max-width: 460px; }
+}

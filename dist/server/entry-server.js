@@ -1660,7 +1660,7 @@ const DESTINATIONS = [
     slug: "hunza-valley",
     name: "Hunza Valley",
     region: "Gilgit-Baltistan, Pakistan",
-    img: "hunza",
+    img: "hunza-valley",
     from: "PKR 54,900",
     days: "5–7 days",
     summary: "A Hunza Valley tour from Islamabad takes 5 to 7 days by road along the Karakoram Highway, or 4 days if you fly to Gilgit. Packages from PKR 54,900 per person include hotels, meals, an AC coaster and a guide, and cover Karimabad, Attabad Lake, Passu Cones and the Khunjerab Pass. The best time to visit is April to October.",
@@ -1674,8 +1674,7 @@ const DESTINATIONS = [
     slug: "skardu",
     name: "Skardu",
     region: "Gilgit-Baltistan, Pakistan",
-    img: "hunza",
-    tone: { objectPosition: "18% 50%", filter: "hue-rotate(-28deg) saturate(1.15)" },
+    img: "skardu",
     from: "PKR 69,500",
     days: "6–8 days",
     summary: "Skardu is the gateway to Deosai, Shangrila and the Karakoram, reachable by a 1-hour flight from Islamabad or two days by road. A 7-day Skardu package from PKR 69,500 includes hotels, meals and a jeep safari to the Deosai Plains, open June to September.",
@@ -1689,8 +1688,7 @@ const DESTINATIONS = [
     slug: "swat",
     name: "Swat & Kalam",
     region: "Khyber Pakhtunkhwa, Pakistan",
-    img: "hunza",
-    tone: { objectPosition: "88% 50%", filter: "hue-rotate(75deg) saturate(.9)" },
+    img: "swat",
     from: "PKR 29,900",
     days: "3–4 days",
     summary: "A Swat and Kalam tour runs 3 to 4 days from Islamabad or Lahore, covering Malam Jabba, Mingora, Kalam and Mahodand Lake. Packages start at PKR 29,900 per person with hotel, meals and transport, and are ideal for families and first-time visitors to the north.",
@@ -1704,7 +1702,7 @@ const DESTINATIONS = [
     slug: "dubai",
     name: "Dubai",
     region: "United Arab Emirates",
-    img: "dubai",
+    img: "dubai-city",
     from: "PKR 119,000",
     days: "4–5 nights",
     summary: "A Dubai holiday package from Pakistan costs from PKR 119,000 per person for 4 nights and includes the UAE visit visa, return flights from Karachi, Lahore or Islamabad, a 4-star hotel, desert safari and dhow cruise. Visas are usually processed in 3 to 5 working days.",
@@ -1718,7 +1716,7 @@ const DESTINATIONS = [
     slug: "maldives",
     name: "Maldives",
     region: "Indian Ocean",
-    img: "islands",
+    img: "maldives",
     from: "PKR 245,000",
     days: "4–6 nights",
     summary: "A Maldives honeymoon package from Pakistan starts at PKR 245,000 per person for 5 nights, with flights via Dubai or Colombo, a beach or water villa, half-board meals and speedboat transfers. Pakistani passport holders receive a free 30-day visa on arrival.",
@@ -1768,9 +1766,9 @@ const FAQS = [
   { q: "Do you offer support while I am travelling?", a: "Yes. Our WhatsApp line is answered 24/7 by a real advisor, and partner desks in Dubai, Jeddah and Istanbul can help on the ground." }
 ];
 const POSTS = [
-  { slug: "umrah-checklist-2026", title: "Umrah checklist 2026: documents, packing and first-day plan", excerpt: "Everything to prepare before you fly, from Nusuk registration to what to carry in your ihram bag.", author: "Baba Travels Umrah desk", updated: "2026-11-02", read: "7 min", img: "umrah" },
-  { slug: "hunza-in-autumn", title: "Hunza in autumn: a 6-day route with the best colour", excerpt: "Where to stay, which days to drive, and why late October beats spring for photography.", author: "Northern tours team", updated: "2026-10-18", read: "6 min", img: "hunza" },
-  { slug: "dubai-visa-pakistanis", title: "Dubai visit visa for Pakistanis: fees, timing and rejections", excerpt: "The exact documents, current processing times and the mistakes that cause rejections.", author: "Visa desk", updated: "2026-11-10", read: "5 min", img: "dubai" }
+  { slug: "umrah-checklist-2026", title: "Umrah checklist 2026: documents, packing and first-day plan", excerpt: "Everything to prepare before you fly, from Nusuk registration to what to carry in your ihram bag.", author: "Baba Travels Umrah desk", updated: "2026-11-02", read: "7 min", img: "umrah-checklist" },
+  { slug: "hunza-in-autumn", title: "Hunza in autumn: a 6-day route with the best colour", excerpt: "Where to stay, which days to drive, and why late October beats spring for photography.", author: "Northern tours team", updated: "2026-10-18", read: "6 min", img: "hunza-autumn" },
+  { slug: "dubai-visa-pakistanis", title: "Dubai visit visa for Pakistanis: fees, timing and rejections", excerpt: "The exact documents, current processing times and the mistakes that cause rejections.", author: "Visa desk", updated: "2026-11-10", read: "5 min", img: "dubai-visa" }
 ];
 const NAV = [
   { label: "Services", to: "/services", mega: true },
