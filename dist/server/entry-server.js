@@ -1489,42 +1489,40 @@ function WhatsAppIcon({ size = 20 }) {
   return /* @__PURE__ */ jsx("svg", { width: size, height: size, viewBox: "0 0 24 24", fill: "currentColor", "aria-hidden": "true", children: /* @__PURE__ */ jsx("path", { d: "M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.2-.6-.4zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4C2.7 15.6 2.2 13.8 2.2 12 2.2 6.6 6.6 2.2 12 2.2c2.6 0 5.1 1 6.9 2.9 1.8 1.8 2.9 4.3 2.9 6.9 0 5.4-4.4 9.8-9.8 9.8zm8.4-18.2C18.2 1.3 15.2 0 12 0 5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6c1.8 1 3.8 1.5 5.8 1.5 6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.6-8.3z" }) });
 }
 function Logo() {
-  return /* @__PURE__ */ jsxs("span", { className: "logo", children: [
-    /* @__PURE__ */ jsxs("svg", { className: "logo__mark", viewBox: "0 0 40 40", "aria-hidden": "true", children: [
-      /* @__PURE__ */ jsx("rect", { width: "40", height: "40", rx: "11", fill: "currentColor", className: "logo__bg" }),
-      /* @__PURE__ */ jsx("path", { d: "M8 28c7-1.4 12.6-7 15.4-15.4l4.2 2.8C24.8 23.8 17.8 30.8 8 32z", fill: "#F5A524" }),
-      /* @__PURE__ */ jsx("circle", { cx: "29", cy: "11", r: "3.5", fill: "#3DD6B5" })
-    ] }),
-    /* @__PURE__ */ jsxs("span", { className: "logo__text", children: [
-      /* @__PURE__ */ jsx("span", { className: "logo__name", children: "Baba Travels" }),
-      /* @__PURE__ */ jsx("span", { className: "logo__sub", children: "& Tours" })
-    ] })
-  ] });
+  return /* @__PURE__ */ jsx("span", { className: "logo", children: /* @__PURE__ */ jsx(
+    "img",
+    {
+      className: "logo__img",
+      src: "/images/haque-logo.png",
+      alt: "Haque Travel & Tours",
+      width: "580",
+      height: "240",
+      decoding: "async"
+    }
+  ) });
 }
 const SITE = {
-  name: "Baba Travels & Tours",
-  shortName: "Baba Travels",
-  url: "https://www.babatravels.pk",
-  // CONFIRM production domain
-  tagline: "Flights, Umrah & tours — planned in Pakistan, trusted worldwide",
-  description: "Baba Travels & Tours is a Pakistan-based travel agency for air tickets, Umrah and Hajj packages, northern-area and international tours, visa assistance, hotels, car rental and airport transfers.",
-  phone: "+92 300 0000000",
-  // CONFIRM
-  phoneHref: "+923000000000",
-  // CONFIRM
-  whatsapp: "923000000000",
-  // CONFIRM (international format, no +)
-  email: "info@babatravels.pk",
-  // CONFIRM
+  name: "Haque Travel & Tours",
+  shortName: "Haque Travel & Tours",
+  url: "https://www.haque.com.pk",
+  tagline: "Your Journey, Our Passion",
+  description: "Haque Travel & Tours (Pvt) Ltd is a Karachi-based travel agency for air tickets, Umrah and Hajj packages, northern-area and international tours, visa assistance, hotels, car rental and airport transfers.",
+  phone: "+92 332 3391628",
+  phoneHref: "+923323391628",
+  whatsapp: "923323391628",
+  // international format, no +
+  phones: ["+92 332 3391628", "+92 330 8682472", "+92 300 8255528"],
+  email: "info@haque.com.pk",
+  website: "www.haque.com.pk",
+  addressLine: "Avanti Terrace, Plot No. 148/A/2, Suite 14, Mezzanine Floor, Allama Iqbal Road, P.E.C.H.S Block-2, Karachi",
   founded: 2010,
   // CONFIRM
   hours: "Mon–Sat 9:00–21:00 PKT · WhatsApp 24/7",
   // CONFIRM
   social: {
-    facebook: "https://facebook.com/",
-    // CONFIRM
-    instagram: "https://instagram.com/",
-    // CONFIRM
+    facebook: "https://facebook.com/HaquePvtLtd",
+    // CONFIRM exact page URL (page name: Haque-Pvt Ltd)
+    instagram: "https://instagram.com/haque_pvt_ltd",
     youtube: "https://youtube.com/",
     // CONFIRM
     tiktok: "https://tiktok.com/"
@@ -1535,7 +1533,7 @@ const SITE = {
 };
 const OFFICES = [
   // CONFIRM all addresses / phones / geo
-  { id: "karachi", city: "Karachi", country: "Pakistan", label: "Head office", address: "Office 12, Shahrah-e-Faisal, Karachi 75400", phone: "+92 21 0000 0000", hours: "Mon–Sat 9:00–21:00", geo: [24.8607, 67.0011] },
+  { id: "karachi", city: "Karachi", country: "Pakistan", label: "Head office", address: "Avanti Terrace, Plot No. 148/A/2, Suite 14, Mezzanine Floor, Allama Iqbal Road, P.E.C.H.S Block-2, Karachi", phone: "+92 332 3391628", hours: "Mon–Sat 9:00–21:00", geo: [24.8607, 67.0011] },
   { id: "lahore", city: "Lahore", country: "Pakistan", label: "Branch", address: "Main Boulevard, Gulberg III, Lahore 54660", phone: "+92 42 0000 0000", hours: "Mon–Sat 10:00–20:00", geo: [31.5204, 74.3587] },
   { id: "islamabad", city: "Islamabad", country: "Pakistan", label: "Branch", address: "Blue Area, Jinnah Avenue, Islamabad 44000", phone: "+92 51 0000 0000", hours: "Mon–Sat 10:00–20:00", geo: [33.6844, 73.0479] },
   { id: "dubai", city: "Dubai", country: "UAE", label: "Partner desk", address: "Al Karama, Dubai, UAE", phone: "+971 4 000 0000", hours: "Sun–Fri 10:00–19:00", geo: [25.2048, 55.2708] }
@@ -1559,7 +1557,7 @@ const SERVICES$1 = [
     icon: "Plane",
     title: "Air tickets",
     short: "Domestic & international fares on every major airline, with 24/7 rebooking help.",
-    summary: "Baba Travels books domestic and international air tickets from Pakistan on PIA, Emirates, Qatar Airways, Saudia, Turkish Airlines and 40+ other carriers. We compare fares across airlines, hold seats while you decide, and handle date changes, refunds and baggage add-ons on WhatsApp, 24 hours a day.",
+    summary: "Haque Travel & Tours books domestic and international air tickets from Pakistan on PIA, Emirates, Qatar Airways, Saudia, Turkish Airlines and 40+ other carriers. We compare fares across airlines, hold seats while you decide, and handle date changes, refunds and baggage add-ons on WhatsApp, 24 hours a day.",
     facts: [["Coverage", "60+ countries, all Pakistani airports"], ["Airlines", "PIA, Emirates, Qatar, Saudia, Turkish + 40 more"], ["Booking time", "E-ticket in 15–30 minutes"], ["Price from", "PKR 38,500 return (KHI–DXB)"], ["Payment", "Bank transfer, card, JazzCash, Easypaisa"], ["Support", "24/7 WhatsApp for changes"]],
     includes: ["Fare comparison across 40+ airlines", "Seat hold while you confirm", "Group & student fares", "Date change and refund handling", "Extra baggage and meal requests"]
   },
@@ -1631,7 +1629,7 @@ const SERVICES$1 = [
     icon: "Briefcase",
     title: "Corporate travel",
     short: "Monthly invoicing, policy control and a dedicated travel desk.",
-    summary: "Baba Travels runs travel for companies with a dedicated account manager, monthly invoicing, approval workflows and negotiated airline and hotel rates. We handle conferences, team trips and executive travel, and send a monthly spend report for finance.",
+    summary: "Haque Travel & Tours runs travel for companies with a dedicated account manager, monthly invoicing, approval workflows and negotiated airline and hotel rates. We handle conferences, team trips and executive travel, and send a monthly spend report for finance.",
     facts: [["Billing", "Monthly credit invoicing"], ["Desk", "Dedicated account manager"], ["Reports", "Monthly spend report"], ["Setup time", "2 working days"]],
     includes: ["Policy-based booking", "Negotiated rates", "MICE & conferences", "Visa desk for staff"]
   },
@@ -1660,7 +1658,7 @@ const DESTINATIONS = [
     slug: "hunza-valley",
     name: "Hunza Valley",
     region: "Gilgit-Baltistan, Pakistan",
-    img: "hunza-valley",
+    img: "hunza-autumn",
     from: "PKR 54,900",
     days: "5–7 days",
     summary: "A Hunza Valley tour from Islamabad takes 5 to 7 days by road along the Karakoram Highway, or 4 days if you fly to Gilgit. Packages from PKR 54,900 per person include hotels, meals, an AC coaster and a guide, and cover Karimabad, Attabad Lake, Passu Cones and the Khunjerab Pass. The best time to visit is April to October.",
@@ -1758,20 +1756,21 @@ const TESTIMONIALS = [
   { name: "Usman T.", city: "Faisalabad", trip: "Corporate travel", rating: 4, text: "Monthly invoicing and one point of contact made our team travel much easier to manage." }
 ];
 const FAQS = [
-  { q: "How much does an Umrah package from Pakistan cost?", a: "Umrah packages with Baba Travels start from PKR 289,000 per person on a sharing basis for 14 nights, including visa, return flights, hotels and transport. Family and premium packages near the Haram range from PKR 365,000 to PKR 540,000." },
-  { q: "How do I book a tour or ticket with Baba Travels?", a: "Send your dates and number of travellers through our quote form or WhatsApp. An advisor replies with options within 30 minutes during office hours. Once you confirm and pay, tickets and vouchers are sent by WhatsApp and email." },
+  { q: "How much does an Umrah package from Pakistan cost?", a: "Umrah packages with Haque Travel & Tours start from PKR 289,000 per person on a sharing basis for 14 nights, including visa, return flights, hotels and transport. Family and premium packages near the Haram range from PKR 365,000 to PKR 540,000." },
+  { q: "How do I book a tour or ticket with Haque Travel & Tours?", a: "Send your dates and number of travellers through our quote form or WhatsApp. An advisor replies with options within 30 minutes during office hours. Once you confirm and pay, tickets and vouchers are sent by WhatsApp and email." },
   { q: "Which payment methods do you accept?", a: "We accept bank transfer, debit and credit cards, JazzCash and Easypaisa. Overseas Pakistanis can pay from the UK, UAE or Saudi Arabia by bank transfer." },
   { q: "Can you help with a UAE or Saudi visit visa?", a: "Yes. We process UAE, Saudi, Turkey, Malaysia, UK and Schengen visas. UAE visit visas typically take 3–5 working days with complete documents." },
   { q: "When is the best time to visit Hunza and Skardu?", a: "April to October. April brings cherry and apricot blossoms, June to September is best for Deosai and high passes, and October has autumn colours." },
   { q: "Do you offer support while I am travelling?", a: "Yes. Our WhatsApp line is answered 24/7 by a real advisor, and partner desks in Dubai, Jeddah and Istanbul can help on the ground." }
 ];
 const POSTS = [
-  { slug: "umrah-checklist-2026", title: "Umrah checklist 2026: documents, packing and first-day plan", excerpt: "Everything to prepare before you fly, from Nusuk registration to what to carry in your ihram bag.", author: "Baba Travels Umrah desk", updated: "2026-11-02", read: "7 min", img: "umrah-checklist" },
+  { slug: "umrah-checklist-2026", title: "Umrah checklist 2026: documents, packing and first-day plan", excerpt: "Everything to prepare before you fly, from Nusuk registration to what to carry in your ihram bag.", author: "Haque Travel & Tours Umrah desk", updated: "2026-11-02", read: "7 min", img: "umrah-checklist" },
   { slug: "hunza-in-autumn", title: "Hunza in autumn: a 6-day route with the best colour", excerpt: "Where to stay, which days to drive, and why late October beats spring for photography.", author: "Northern tours team", updated: "2026-10-18", read: "6 min", img: "hunza-autumn" },
   { slug: "dubai-visa-pakistanis", title: "Dubai visit visa for Pakistanis: fees, timing and rejections", excerpt: "The exact documents, current processing times and the mistakes that cause rejections.", author: "Visa desk", updated: "2026-11-10", read: "5 min", img: "dubai-visa" }
 ];
 const NAV = [
-  { label: "Services", to: "/services", mega: true },
+  { label: "Services", to: "/services" },
+  // mega dropdown disabled for the time being — re-add `mega: true` to restore
   { label: "Packages", to: "/packages" },
   { label: "Destinations", to: "/destinations/hunza-valley", dest: true },
   { label: "About", to: "/about" },
@@ -2102,7 +2101,7 @@ function Footer() {
           /* @__PURE__ */ jsx("stop", { offset: "0", stopColor: "#fff", stopOpacity: ".14" }),
           /* @__PURE__ */ jsx("stop", { offset: ".9", stopColor: "#fff", stopOpacity: "0" })
         ] }) }),
-        /* @__PURE__ */ jsx("text", { x: "0", y: "128", textLength: "1000", lengthAdjust: "spacingAndGlyphs", fill: "url(#fw)", children: "Baba Travels" })
+        /* @__PURE__ */ jsx("text", { x: "0", y: "128", textLength: "1000", lengthAdjust: "spacingAndGlyphs", fill: "url(#fw)", children: "Haque" })
       ] }),
       /* @__PURE__ */ jsxs("div", { className: "footer__bottom", children: [
         /* @__PURE__ */ jsxs("span", { children: [
@@ -2372,7 +2371,7 @@ function HeroCarousel() {
         /* @__PURE__ */ jsxs("div", { className: "hero__center container", children: [
           /* @__PURE__ */ jsxs("h1", { className: "hero__h1", children: [
             /* @__PURE__ */ jsx("span", { className: "hero__h1-dot", "aria-hidden": "true" }),
-            "Baba Travels & Tours — flights, Umrah & tours from Pakistan"
+            "Haque Travel & Tours — flights, Umrah & tours from Pakistan"
           ] }),
           /* @__PURE__ */ jsxs("p", { className: "hero__place", children: [
             /* @__PURE__ */ jsx(Icon, { name: "MapPin", size: 16 }),
@@ -2573,7 +2572,7 @@ function RouteMap() {
   }
   return /* @__PURE__ */ jsxs("div", { ref, className: `routemap ${inView ? "is-in" : ""}`, children: [
     /* @__PURE__ */ jsxs("svg", { viewBox: "0 0 960 460", className: "routemap__svg", role: "img", "aria-labelledby": "rm-title rm-desc", children: [
-      /* @__PURE__ */ jsx("title", { id: "rm-title", children: "Baba Travels route network" }),
+      /* @__PURE__ */ jsx("title", { id: "rm-title", children: "Haque Travel & Tours route network" }),
       /* @__PURE__ */ jsx("desc", { id: "rm-desc", children: "Routes from Karachi, Lahore and Islamabad to Jeddah, Madinah, Dubai, Istanbul, London, Toronto, Kuala Lumpur, Bangkok, Baku and Malé." }),
       /* @__PURE__ */ jsx("g", { className: "routemap__dots", children: dots.map(([x, y], i) => /* @__PURE__ */ jsx("circle", { cx: x, cy: y, r: "1.6" }, i)) }),
       CITIES.map((c, i) => {
@@ -2902,7 +2901,7 @@ function Home() {
         " reach."
       ] }) }),
       /* @__PURE__ */ jsxs("p", { className: "answer", "data-reveal": true, children: [
-        /* @__PURE__ */ jsx("strong", { children: "Baba Travels & Tours" }),
+        /* @__PURE__ */ jsx("strong", { children: "Haque Travel & Tours" }),
         " is a travel agency in Karachi, Lahore and Islamabad that books air tickets, Umrah and Hajj packages, northern Pakistan tours, international holidays, visas, hotels, car rental and airport transfers. Travellers get a free quote in about 30 minutes, clear prices in PKR, and 24/7 WhatsApp support from departure to return."
       ] })
     ] }) }),
@@ -2978,7 +2977,7 @@ function Home() {
         ] })
       ] }),
       /* @__PURE__ */ jsxs("div", { children: [
-        /* @__PURE__ */ jsx(SectionHead, { eyebrow: "Why Baba Travels", id: "why-title", title: /* @__PURE__ */ jsxs(Fragment, { children: [
+        /* @__PURE__ */ jsx(SectionHead, { eyebrow: "Why Haque", id: "why-title", title: /* @__PURE__ */ jsxs(Fragment, { children: [
           "Travel with people who ",
           /* @__PURE__ */ jsx("em", { children: "pick up." })
         ] }) }),
@@ -3035,6 +3034,74 @@ function Home() {
         ] })
       ] }, p.slug)) })
     ] }),
+    /* @__PURE__ */ jsx("section", { className: "section promo", "aria-labelledby": "promo-title", children: /* @__PURE__ */ jsxs("div", { className: "container promo__grid", children: [
+      /* @__PURE__ */ jsx("figure", { className: "promo__art", "data-reveal": true, children: /* @__PURE__ */ jsx(
+        "img",
+        {
+          src: "/images/haque-journey.webp",
+          alt: "Haque Travel & Tours — a family watching an aircraft take off, with the message: some journeys aren’t about places",
+          width: "1080",
+          height: "1080",
+          loading: "lazy"
+        }
+      ) }),
+      /* @__PURE__ */ jsxs("div", { className: "promo__body", children: [
+        /* @__PURE__ */ jsx("span", { className: "eyebrow", children: "Your Journey, Our Passion" }),
+        /* @__PURE__ */ jsxs("h2", { className: "promo__title", id: "promo-title", children: [
+          "Some journeys aren’t about ",
+          /* @__PURE__ */ jsx("em", { children: "places." })
+        ] }),
+        /* @__PURE__ */ jsxs("ul", { className: "promo__points", children: [
+          /* @__PURE__ */ jsxs("li", { "data-reveal": true, children: [
+            /* @__PURE__ */ jsx("span", { className: "promo__ic", children: /* @__PURE__ */ jsx(Icon, { name: "Users", size: 18 }) }),
+            /* @__PURE__ */ jsxs("span", { children: [
+              "They’re about ",
+              /* @__PURE__ */ jsx("strong", { children: "the people" }),
+              " you travel with."
+            ] })
+          ] }),
+          /* @__PURE__ */ jsxs("li", { "data-reveal": true, style: { "--rd": "70ms" }, children: [
+            /* @__PURE__ */ jsx("span", { className: "promo__ic", children: /* @__PURE__ */ jsx(Icon, { name: "Sparkles", size: 18 }) }),
+            /* @__PURE__ */ jsxs("span", { children: [
+              "The ",
+              /* @__PURE__ */ jsx("strong", { children: "memories" }),
+              " you bring home."
+            ] })
+          ] }),
+          /* @__PURE__ */ jsxs("li", { "data-reveal": true, style: { "--rd": "140ms" }, children: [
+            /* @__PURE__ */ jsx("span", { className: "promo__ic", children: /* @__PURE__ */ jsx(Icon, { name: "Quote", size: 18 }) }),
+            /* @__PURE__ */ jsxs("span", { children: [
+              "And the ",
+              /* @__PURE__ */ jsx("strong", { children: "stories" }),
+              " you’ll tell for years."
+            ] })
+          ] })
+        ] }),
+        /* @__PURE__ */ jsx("p", { className: "promo__quote", children: "“Because in the end, it’s not just the destination… it’s the journey that stays with you forever.”" }),
+        /* @__PURE__ */ jsx("div", { className: "promo__ctas", children: /* @__PURE__ */ jsxs(Link, { to: "/quote", className: "btn btn--primary btn--lg", children: [
+          "Where will your next story begin?",
+          /* @__PURE__ */ jsx(Icon, { name: "ArrowRight", size: 18 })
+        ] }) }),
+        /* @__PURE__ */ jsxs("ul", { className: "promo__contact", children: [
+          SITE.phones.map((p) => /* @__PURE__ */ jsx("li", { children: /* @__PURE__ */ jsxs("a", { href: `tel:${p.replace(/\s/g, "")}`, children: [
+            /* @__PURE__ */ jsx(Icon, { name: "Phone", size: 15 }),
+            p
+          ] }) }, p)),
+          /* @__PURE__ */ jsx("li", { children: /* @__PURE__ */ jsxs("a", { href: `mailto:${SITE.email}`, children: [
+            /* @__PURE__ */ jsx(Icon, { name: "Mail", size: 15 }),
+            SITE.email
+          ] }) }),
+          /* @__PURE__ */ jsx("li", { children: /* @__PURE__ */ jsxs("a", { href: SITE.url, target: "_blank", rel: "noreferrer", children: [
+            /* @__PURE__ */ jsx(Icon, { name: "Globe2", size: 15 }),
+            SITE.website
+          ] }) }),
+          /* @__PURE__ */ jsxs("li", { className: "promo__addr", children: [
+            /* @__PURE__ */ jsx(Icon, { name: "MapPin", size: 15 }),
+            /* @__PURE__ */ jsx("span", { children: SITE.addressLine })
+          ] })
+        ] })
+      ] })
+    ] }) }),
     /* @__PURE__ */ jsx(CtaBand, {})
   ] });
 }
@@ -3059,7 +3126,7 @@ function Services() {
       {
         title: "Travel services: flights, Umrah, tours & visas",
         path: "/services",
-        description: "All Baba Travels services: air tickets, Umrah and Hajj packages, holiday tours, visa assistance, hotels, car rental, airport transfers, coach booking, corporate travel and cargo.",
+        description: "All Haque Travel & Tours services: air tickets, Umrah and Hajj packages, holiday tours, visa assistance, hotels, car rental, airport transfers, coach booking, corporate travel and cargo.",
         lcp: "skies",
         schema: [breadcrumbSchema(crumbs)]
       }
@@ -3076,7 +3143,7 @@ function ServiceDetail() {
   if (!s) return /* @__PURE__ */ jsx(NotFound, {});
   const crumbs = [{ label: "Home", to: "/" }, { label: "Services", to: "/services" }, { label: s.title, to: `/services/${s.slug}` }];
   const faqs = [
-    { q: `How much does ${s.title.toLowerCase()} cost with Baba Travels?`, a: `${s.title} starts from ${((_a2 = s.facts.find(([k]) => /price/i.test(k))) == null ? void 0 : _a2[1]) || "a clear PKR price"}. You get a full quote with taxes and fees in PKR within about 30 minutes.` },
+    { q: `How much does ${s.title.toLowerCase()} cost with Haque Travel & Tours?`, a: `${s.title} starts from ${((_a2 = s.facts.find(([k]) => /price/i.test(k))) == null ? void 0 : _a2[1]) || "a clear PKR price"}. You get a full quote with taxes and fees in PKR within about 30 minutes.` },
     { q: `How do I book ${s.title.toLowerCase()}?`, a: "Fill the quote form or message us on WhatsApp with your dates and travellers. Confirm the option you like, pay securely, and receive documents on WhatsApp and email." },
     ...FAQS.slice(2, 4)
   ];
@@ -3164,7 +3231,7 @@ function Destination() {
   if (!d) return /* @__PURE__ */ jsx(NotFound, {});
   const crumbs = [{ label: "Home", to: "/" }, { label: "Destinations", to: "/packages" }, { label: d.name, to: `/destinations/${d.slug}` }];
   const faqs = [
-    { q: `How much does a ${d.name} tour cost from Pakistan?`, a: `${d.name} packages with Baba Travels start from ${d.from} per person for ${d.days}, including hotels and transport. Private family tours are quoted on request.` },
+    { q: `How much does a ${d.name} tour cost from Pakistan?`, a: `${d.name} packages with Haque Travel & Tours start from ${d.from} per person for ${d.days}, including hotels and transport. Private family tours are quoted on request.` },
     { q: `What is the best time to visit ${d.name}?`, a: `${d.best}.` },
     { q: `How do I get to ${d.name}?`, a: `${d.reach}.` }
   ];
@@ -3223,7 +3290,7 @@ function Destination() {
             " office"
           ] }),
           /* @__PURE__ */ jsx("p", { itemProp: "name", children: /* @__PURE__ */ jsxs("strong", { children: [
-            "Baba Travels & Tours — ",
+            "Haque Travel & Tours — ",
             office.city
           ] }) }),
           /* @__PURE__ */ jsxs("p", { itemProp: "address", children: [
@@ -3269,7 +3336,7 @@ function About() {
     /* @__PURE__ */ jsx(
       Seo,
       {
-        title: "About Baba Travels & Tours",
+        title: "About Haque Travel & Tours",
         path: "/about",
         description: `${SITE.name} has helped Pakistani families, pilgrims and companies travel since ${SITE.founded}, with offices in Karachi, Lahore and Islamabad.`,
         lcp: "hunza",
@@ -3279,7 +3346,7 @@ function About() {
     /* @__PURE__ */ jsx(PageHero, { img: "hunza", eyebrow: "About us", title: "We’ve been sending Pakistan around the world since 2010", crumbs: /* @__PURE__ */ jsx(Breadcrumbs, { items: crumbs }) }),
     /* @__PURE__ */ jsx("section", { className: "section container about", children: /* @__PURE__ */ jsxs("div", { className: "about__grid", children: [
       /* @__PURE__ */ jsxs("div", { children: [
-        /* @__PURE__ */ jsx("h2", { className: "detail__h2", children: "Who is Baba Travels & Tours?" }),
+        /* @__PURE__ */ jsx("h2", { className: "detail__h2", children: "Who is Haque Travel & Tours?" }),
         /* @__PURE__ */ jsxs("p", { className: "answer answer--boxed", children: [
           SITE.name,
           " is a family-run travel agency founded in Karachi in ",
@@ -3431,7 +3498,7 @@ function Quote() {
     }
   };
   return /* @__PURE__ */ jsxs(Fragment, { children: [
-    /* @__PURE__ */ jsx(Seo, { title: "Get a free travel quote", path: "/quote", description: "Request a free quote for flights, Umrah, tours, visas, hotels or car rental. Clear PKR prices from a Baba Travels advisor in about 30 minutes.", schema: [breadcrumbSchema(crumbs)] }),
+    /* @__PURE__ */ jsx(Seo, { title: "Get a free travel quote", path: "/quote", description: "Request a free quote for flights, Umrah, tours, visas, hotels or car rental. Clear PKR prices from a Haque Travel & Tours advisor in about 30 minutes.", schema: [breadcrumbSchema(crumbs)] }),
     /* @__PURE__ */ jsxs("section", { className: "quote container", children: [
       /* @__PURE__ */ jsx(Breadcrumbs, { items: crumbs }),
       /* @__PURE__ */ jsxs("div", { className: "quote__grid", children: [
@@ -3441,7 +3508,7 @@ function Quote() {
             "Tell us the trip. ",
             /* @__PURE__ */ jsx("em", { children: "We’ll do the rest." })
           ] }),
-          /* @__PURE__ */ jsx("p", { className: "answer", children: "Share four quick details and a Baba Travels advisor sends 2–3 options with full PKR prices — usually within 30 minutes during office hours. No booking fee, no obligation." }),
+          /* @__PURE__ */ jsx("p", { className: "answer", children: "Share four quick details and a Haque Travel & Tours advisor sends 2–3 options with full PKR prices — usually within 30 minutes during office hours. No booking fee, no obligation." }),
           /* @__PURE__ */ jsxs("a", { href: waLink(), className: "btn btn--wa", children: [
             /* @__PURE__ */ jsx(WhatsAppIcon, {}),
             "Prefer WhatsApp?"
