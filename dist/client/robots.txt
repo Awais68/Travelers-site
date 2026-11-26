@@ -1,0 +1,17 @@
+# Search + AI answer engines are welcome
+User-agent: *
+Allow: /
+Disallow: /quote?*
+
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://www.babatravels.pk/sitemap.xml

@@ -1,0 +1,26 @@
+{
+  "name": "baba-travels-client",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build:client": "vite build --outDir dist/client",
+    "build:server": "vite build --ssr src/entry-server.jsx --outDir dist/server",
+    "build": "npm run build:client && npm run build:server && node scripts/prerender.js",
+    "preview": "vite preview --outDir dist/client",
+    "optimize:images": "node scripts/optimize-images.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "0.460.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-helmet-async": "2.0.5",
+    "react-router-dom": "6.28.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "sharp": "0.35.5",
+    "vite": "5.4.11"
+  }
+}

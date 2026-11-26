@@ -1,0 +1,316 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "Baba Travels & Tours home" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e12]:
+            - generic [ref=e13]: Baba Travels
+            - generic [ref=e14]: "& Tours"
+        - navigation "Primary" [ref=e15]:
+          - button "Services" [ref=e17] [cursor=pointer]
+          - link "Packages" [ref=e20] [cursor=pointer]:
+            - /url: /packages
+          - button "Destinations" [ref=e22] [cursor=pointer]
+          - link "About" [ref=e25] [cursor=pointer]:
+            - /url: /about
+          - link "Contact" [ref=e26] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e27]:
+          - button "Switch to dark theme" [ref=e28] [cursor=pointer]
+          - link "+92 300 0000000" [ref=e38] [cursor=pointer]:
+            - /url: tel:+923000000000
+          - link "Get a quote" [ref=e41] [cursor=pointer]:
+            - /url: /quote
+    - main [ref=e42]:
+      - generic [ref=e47]:
+        - navigation "Breadcrumb" [ref=e48]:
+          - list [ref=e49]:
+            - listitem [ref=e50]:
+              - link "Home" [ref=e51] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e52]:
+              - text: /
+              - generic [ref=e53]: About
+        - generic [ref=e54]: About us
+        - heading "We’ve been sending Pakistan around the world since 2010" [level=1] [ref=e55]
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - heading "Who is Baba Travels & Tours?" [level=2] [ref=e59]
+          - paragraph [ref=e60]: Quick answer Baba Travels & Tours is a family-run travel agency founded in Karachi in 2010. We plan Umrah journeys, northern Pakistan tours, international holidays and business travel for families, pilgrims and companies, and support Pakistanis abroad travelling home from the UK, Gulf and Canada.
+          - paragraph [ref=e61]: "What started as a small ticketing desk is now a team of advisors across three Pakistani cities and partner desks in Dubai, Jeddah and Istanbul. The idea hasn’t changed: answer the phone, explain the price, and stay with travellers until they’re home."
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - term [ref=e64]: Years in travel
+            - definition [ref=e65]:
+              - generic [ref=e66]: 15+
+          - generic [ref=e67]:
+            - term [ref=e68]: Travellers served
+            - definition [ref=e69]:
+              - generic [ref=e70]: 48,000+
+          - generic [ref=e71]:
+            - term [ref=e72]: Countries covered
+            - definition [ref=e73]:
+              - generic [ref=e74]: 60+
+          - generic [ref=e75]:
+            - term [ref=e76]: Average rating
+            - definition [ref=e77]:
+              - generic [ref=e78]: 4.9★
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - generic [ref=e82]: Our promise
+          - heading "What you can hold us to" [level=2] [ref=e83]
+        - list [ref=e84]:
+          - listitem [ref=e85]:
+            - generic [ref=e90]:
+              - heading "Licensed & accountable" [level=3] [ref=e91]
+              - paragraph [ref=e92]: Registered with the Department of Tourist Services and IATA-accredited ticketing. (CONFIRM licence numbers)
+          - listitem [ref=e93]:
+            - generic [ref=e98]:
+              - heading "Clear PKR pricing" [level=3] [ref=e99]
+              - paragraph [ref=e100]: Every quote shows the full price in rupees — taxes, visa and transfers included.
+          - listitem [ref=e101]:
+            - generic [ref=e105]:
+              - heading "Humans on WhatsApp, 24/7" [level=3] [ref=e106]
+              - paragraph [ref=e107]: Message us at 3 a.m. from Jeddah airport and a real advisor replies.
+          - listitem [ref=e108]:
+            - generic [ref=e115]:
+              - heading "Family-first planning" [level=3] [ref=e116]
+              - paragraph [ref=e117]: Wheelchair help, elderly-friendly hotels and mahram-aware Umrah groups.
+          - listitem [ref=e118]:
+            - generic [ref=e123]:
+              - heading "Negotiated rates" [level=3] [ref=e124]
+              - paragraph [ref=e125]: Direct contracts with airlines and hotels mean better fares than DIY booking.
+          - listitem [ref=e126]:
+            - generic [ref=e133]:
+              - heading "Local here, local there" [level=3] [ref=e134]
+              - paragraph [ref=e135]: Partner desks in Dubai, Jeddah and Istanbul handle problems on the ground.
+      - generic [ref=e137]:
+        - generic [ref=e139]:
+          - figure "Ayesha R. Karachi · Family Umrah, 21 nights" [ref=e140]:
+            - generic "5 out of 5 stars" [ref=e141]: ★★★★★
+            - blockquote [ref=e142]: “They handled my parents’ wheelchair assistance at both airports and the hotel was a short walk from the Haram. My father still talks about it.”
+            - generic [ref=e143]:
+              - generic [aria-hidden] [ref=e144]: A
+              - generic [ref=e145]:
+                - strong [ref=e146]: Ayesha R.
+                - generic [ref=e147]: Karachi · Family Umrah, 21 nights
+          - figure "Hamza Q. Lahore · Hunza & Khunjerab" [ref=e148]:
+            - generic "5 out of 5 stars" [ref=e149]: ★★★★★
+            - blockquote [ref=e150]: “Driver was careful on the KKH, hotels were clean and the guide knew every stop. Worth every rupee.”
+            - generic [ref=e151]:
+              - generic [aria-hidden] [ref=e152]: H
+              - generic [ref=e153]:
+                - strong [ref=e154]: Hamza Q.
+                - generic [ref=e155]: Lahore · Hunza & Khunjerab
+          - figure "Sana & Bilal Islamabad · Maldives honeymoon" [ref=e156]:
+            - generic "5 out of 5 stars" [ref=e157]: ★★★★★
+            - blockquote [ref=e158]: “Water villa upgrade, flowers on the bed, smooth transfers. They answered WhatsApp within minutes the whole trip.”
+            - generic [ref=e159]:
+              - generic [aria-hidden] [ref=e160]: S
+              - generic [ref=e161]:
+                - strong [ref=e162]: Sana & Bilal
+                - generic [ref=e163]: Islamabad · Maldives honeymoon
+          - figure [aria-hidden] [ref=e164]:
+            - generic [ref=e165]: ★★★★★
+            - blockquote [ref=e166]: “They handled my parents’ wheelchair assistance at both airports and the hotel was a short walk from the Haram. My father still talks about it.”
+            - generic [ref=e167]:
+              - generic [aria-hidden] [ref=e168]: A
+              - generic [ref=e169]:
+                - strong [ref=e170]: Ayesha R.
+                - generic [ref=e171]: Karachi · Family Umrah, 21 nights
+          - figure [aria-hidden] [ref=e172]:
+            - generic [ref=e173]: ★★★★★
+            - blockquote [ref=e174]: “Driver was careful on the KKH, hotels were clean and the guide knew every stop. Worth every rupee.”
+            - generic [ref=e175]:
+              - generic [aria-hidden] [ref=e176]: H
+              - generic [ref=e177]:
+                - strong [ref=e178]: Hamza Q.
+                - generic [ref=e179]: Lahore · Hunza & Khunjerab
+          - figure [aria-hidden] [ref=e180]:
+            - generic [ref=e181]: ★★★★★
+            - blockquote [ref=e182]: “Water villa upgrade, flowers on the bed, smooth transfers. They answered WhatsApp within minutes the whole trip.”
+            - generic [ref=e183]:
+              - generic [aria-hidden] [ref=e184]: S
+              - generic [ref=e185]:
+                - strong [ref=e186]: Sana & Bilal
+                - generic [ref=e187]: Islamabad · Maldives honeymoon
+        - generic [ref=e189]:
+          - figure "Imran K. Manchester, UK · Air tickets MAN–LHE" [ref=e190]:
+            - generic "5 out of 5 stars" [ref=e191]: ★★★★★
+            - blockquote [ref=e192]: “Got a better fare than online sites and they changed my return date for free when my plans moved.”
+            - generic [ref=e193]:
+              - generic [aria-hidden] [ref=e194]: I
+              - generic [ref=e195]:
+                - strong [ref=e196]: Imran K.
+                - generic [ref=e197]: Manchester, UK · Air tickets MAN–LHE
+          - figure "Fatima Z. Multan · Dubai visa + package" [ref=e198]:
+            - generic "5 out of 5 stars" [ref=e199]: ★★★★★
+            - blockquote [ref=e200]: “Visa came in four days. The checklist they gave made it simple. Desert safari was the highlight.”
+            - generic [ref=e201]:
+              - generic [aria-hidden] [ref=e202]: F
+              - generic [ref=e203]:
+                - strong [ref=e204]: Fatima Z.
+                - generic [ref=e205]: Multan · Dubai visa + package
+          - figure "Usman T. Faisalabad · Corporate travel" [ref=e206]:
+            - generic "4 out of 5 stars" [ref=e207]: ★★★★★
+            - blockquote [ref=e208]: “Monthly invoicing and one point of contact made our team travel much easier to manage.”
+            - generic [ref=e209]:
+              - generic [aria-hidden] [ref=e210]: U
+              - generic [ref=e211]:
+                - strong [ref=e212]: Usman T.
+                - generic [ref=e213]: Faisalabad · Corporate travel
+          - figure [aria-hidden] [ref=e214]:
+            - generic [ref=e215]: ★★★★★
+            - blockquote [ref=e216]: “Got a better fare than online sites and they changed my return date for free when my plans moved.”
+            - generic [ref=e217]:
+              - generic [aria-hidden] [ref=e218]: I
+              - generic [ref=e219]:
+                - strong [ref=e220]: Imran K.
+                - generic [ref=e221]: Manchester, UK · Air tickets MAN–LHE
+          - figure [aria-hidden] [ref=e222]:
+            - generic [ref=e223]: ★★★★★
+            - blockquote [ref=e224]: “Visa came in four days. The checklist they gave made it simple. Desert safari was the highlight.”
+            - generic [ref=e225]:
+              - generic [aria-hidden] [ref=e226]: F
+              - generic [ref=e227]:
+                - strong [ref=e228]: Fatima Z.
+                - generic [ref=e229]: Multan · Dubai visa + package
+          - figure [aria-hidden] [ref=e230]:
+            - generic [ref=e231]: ★★★★★
+            - blockquote [ref=e232]: “Monthly invoicing and one point of contact made our team travel much easier to manage.”
+            - generic [ref=e233]:
+              - generic [aria-hidden] [ref=e234]: U
+              - generic [ref=e235]:
+                - strong [ref=e236]: Usman T.
+                - generic [ref=e237]: Faisalabad · Corporate travel
+      - region "Your next journey is one message away." [ref=e238]:
+        - generic [ref=e239]:
+          - generic [ref=e243]: Ready when you are
+          - heading "Your next journey is one message away." [level=2] [ref=e244]
+          - paragraph [ref=e245]: Tell us where and when. A real advisor replies with clear PKR prices in about 30 minutes.
+          - generic [ref=e246]:
+            - link "Get a free quote" [ref=e247] [cursor=pointer]:
+              - /url: /quote
+            - link "WhatsApp us" [ref=e250] [cursor=pointer]:
+              - /url: https://wa.me/923000000000?text=Assalam%20o%20Alaikum%2C%20I%20would%20like%20a%20travel%20quote.
+    - contentinfo [ref=e253]:
+      - generic [ref=e254]:
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - generic [ref=e262]:
+              - generic [ref=e263]: Baba Travels
+              - generic [ref=e264]: "& Tours"
+            - paragraph [ref=e265]: Baba Travels & Tours is a Pakistan-based travel agency for air tickets, Umrah and Hajj packages, northern-area and international tours, visa assistance, hotels, car rental and airport transfers.
+            - generic [ref=e266]: ★★★★★ 4.9/5 from 1,280 Google reviews
+            - generic [ref=e267]:
+              - link "Facebook" [ref=e268] [cursor=pointer]:
+                - /url: https://facebook.com/
+              - link "Instagram" [ref=e271] [cursor=pointer]:
+                - /url: https://instagram.com/
+              - link "YouTube" [ref=e275] [cursor=pointer]:
+                - /url: https://youtube.com/
+              - link "WhatsApp" [ref=e279] [cursor=pointer]:
+                - /url: https://wa.me/923000000000?text=Assalam%20o%20Alaikum%2C%20I%20would%20like%20a%20travel%20quote.
+          - generic [ref=e282]:
+            - generic [ref=e283]:
+              - heading "Services" [level=2] [ref=e284]
+              - list [ref=e285]:
+                - listitem [ref=e286]:
+                  - link "Air tickets" [ref=e287] [cursor=pointer]:
+                    - /url: /services/air-tickets
+                - listitem [ref=e288]:
+                  - link "Umrah & Hajj packages" [ref=e289] [cursor=pointer]:
+                    - /url: /services/umrah-hajj-packages
+                - listitem [ref=e290]:
+                  - link "Holiday tour packages" [ref=e291] [cursor=pointer]:
+                    - /url: /services/holiday-tour-packages
+                - listitem [ref=e292]:
+                  - link "Visa assistance" [ref=e293] [cursor=pointer]:
+                    - /url: /services/visa-assistance
+                - listitem [ref=e294]:
+                  - link "Hotel booking" [ref=e295] [cursor=pointer]:
+                    - /url: /services/hotel-booking
+                - listitem [ref=e296]:
+                  - link "Car rental & chauffeur" [ref=e297] [cursor=pointer]:
+                    - /url: /services/car-rental
+                - listitem [ref=e298]:
+                  - link "Airport transfers" [ref=e299] [cursor=pointer]:
+                    - /url: /services/airport-transfers
+            - generic [ref=e300]:
+              - heading "Destinations" [level=2] [ref=e301]
+              - list [ref=e302]:
+                - listitem [ref=e303]:
+                  - link "Hunza Valley tours" [ref=e304] [cursor=pointer]:
+                    - /url: /destinations/hunza-valley
+                - listitem [ref=e305]:
+                  - link "Skardu tours" [ref=e306] [cursor=pointer]:
+                    - /url: /destinations/skardu
+                - listitem [ref=e307]:
+                  - link "Swat & Kalam tours" [ref=e308] [cursor=pointer]:
+                    - /url: /destinations/swat
+                - listitem [ref=e309]:
+                  - link "Dubai tours" [ref=e310] [cursor=pointer]:
+                    - /url: /destinations/dubai
+                - listitem [ref=e311]:
+                  - link "Maldives tours" [ref=e312] [cursor=pointer]:
+                    - /url: /destinations/maldives
+                - listitem [ref=e313]:
+                  - link "All packages" [ref=e314] [cursor=pointer]:
+                    - /url: /packages
+            - generic [ref=e315]:
+              - heading "Company" [level=2] [ref=e316]
+              - list [ref=e317]:
+                - listitem [ref=e318]:
+                  - link "About us" [ref=e319] [cursor=pointer]:
+                    - /url: /about
+                - listitem [ref=e320]:
+                  - link "Contact & offices" [ref=e321] [cursor=pointer]:
+                    - /url: /contact
+                - listitem [ref=e322]:
+                  - link "Get a quote" [ref=e323] [cursor=pointer]:
+                    - /url: /quote
+                - listitem [ref=e324]:
+                  - link "Travel guides" [ref=e325] [cursor=pointer]:
+                    - /url: /blog/umrah-checklist-2026
+                - listitem [ref=e326]:
+                  - link "Terms & refunds" [ref=e327] [cursor=pointer]:
+                    - /url: /contact
+                - listitem [ref=e328]:
+                  - link "Privacy policy" [ref=e329] [cursor=pointer]:
+                    - /url: /contact
+            - generic [ref=e330]:
+              - heading "Offices" [level=2] [ref=e331]
+              - list [ref=e332]:
+                - listitem [ref=e333]:
+                  - strong [ref=e334]: Karachi
+                  - generic [ref=e335]: Office 12, Shahrah-e-Faisal, Karachi 75400
+                  - link "+92 21 0000 0000" [ref=e336] [cursor=pointer]:
+                    - /url: tel:+922100000000
+                - listitem [ref=e337]:
+                  - strong [ref=e338]: Lahore
+                  - generic [ref=e339]: Main Boulevard, Gulberg III, Lahore 54660
+                  - link "+92 42 0000 0000" [ref=e340] [cursor=pointer]:
+                    - /url: tel:+924200000000
+                - listitem [ref=e341]:
+                  - strong [ref=e342]: Islamabad
+                  - generic [ref=e343]: Blue Area, Jinnah Avenue, Islamabad 44000
+                  - link "+92 51 0000 0000" [ref=e344] [cursor=pointer]:
+                    - /url: tel:+925100000000
+                - listitem [ref=e345]:
+                  - strong [ref=e346]: Dubai
+                  - generic [ref=e347]: Al Karama, Dubai, UAE
+                  - link "+971 4 000 0000" [ref=e348] [cursor=pointer]:
+                    - /url: tel:+97140000000
+        - img [aria-hidden] [ref=e349]:
+          - generic [ref=e350]: Baba Travels
+        - generic [ref=e351]:
+          - generic [ref=e352]: © 2026 Baba Travels & Tours. All rights reserved.
+          - generic [ref=e353]: DTS Licence No. 0000 · IATA 00-0 0000 0
+          - link "Back to top ↑" [ref=e354] [cursor=pointer]:
+            - /url: "#top"
+    - link "Chat with us on WhatsApp" [ref=e355] [cursor=pointer]:
+      - /url: https://wa.me/923000000000?text=Assalam%20o%20Alaikum%2C%20I%20would%20like%20a%20travel%20quote.
+      - generic: Chat with an advisor

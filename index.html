@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en-PK" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#070D12" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Fonts load render-blocking (after preconnect, so it's fast) rather than async.
+         The hero heading is vertically centred, so an async fallback→webfont swap would
+         re-centre the block and cause layout shift (CLS). display=swap still keeps text
+         visible if the font is slow. A fully non-blocking setup needs self-hosted fonts
+         with size-adjust fallback metrics — see the optimisation notes. -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Instrument+Serif:ital@1&family=Manrope:wght@400..700&display=swap" />
+    <!-- Theme before first paint: no flash -->
+    <script>
+      (function(){try{var t=localStorage.getItem('bt-theme');if(!t){t=matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'}document.documentElement.setAttribute('data-theme',t)}catch(e){}document.documentElement.classList.add('js')})();
+    </script>
+    <!--app-head-->
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div id="root"><!--app-html--></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

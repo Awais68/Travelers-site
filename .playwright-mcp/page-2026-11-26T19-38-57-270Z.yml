@@ -1,0 +1,789 @@
+- generic [active] [ref=f1e1]:
+  - link "Skip to content" [ref=f1e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f1e3]:
+    - banner [ref=f1e4]:
+      - generic [ref=f1e5]:
+        - link "Baba Travels & Tours home" [ref=f1e6] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f1e12]:
+            - generic [ref=f1e13]: Baba Travels
+            - generic [ref=f1e14]: "& Tours"
+        - navigation "Primary" [ref=f1e15]:
+          - button "Services" [ref=f1e17] [cursor=pointer]
+          - link "Packages" [ref=f1e20] [cursor=pointer]:
+            - /url: /packages
+          - button "Destinations" [ref=f1e22] [cursor=pointer]
+          - link "About" [ref=f1e25] [cursor=pointer]:
+            - /url: /about
+          - link "Contact" [ref=f1e26] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=f1e27]:
+          - button "Switch to dark theme" [ref=f1e28] [cursor=pointer]
+          - link "+92 300 0000000" [ref=f1e38] [cursor=pointer]:
+            - /url: tel:+923000000000
+          - link "Get a quote" [ref=f1e41] [cursor=pointer]:
+            - /url: /quote
+    - main [ref=f1e42]:
+      - region "Featured journeys" [ref=f1e43]:
+        - generic [ref=f1e46]:
+          - img "Golden-hour light over snow-capped peaks and a calm lake in Hunza Valley" [ref=f1e48]
+          - img "The Kaaba at night in the Grand Mosque of Makkah, ringed by worshippers beneath lit minarets" [ref=f1e50]
+        - generic:
+          - heading "Baba Travels & Tours — flights, Umrah & tours from Pakistan" [level=1] [ref=f1e66]
+          - paragraph [ref=f1e68]: Hunza Valley · Gilgit-Baltistan
+          - paragraph [ref=f1e72]:
+            - generic [ref=f1e73]: Wake
+            - generic [ref=f1e75]: up
+            - generic [ref=f1e77]: beside
+            - generic [ref=f1e79]: the
+            - generic [ref=f1e81]: mountains
+            - generic [ref=f1e83]: of
+            - generic [ref=f1e85]: the
+            - generic [ref=f1e87]: north
+          - generic [ref=f1e89]:
+            - link "Explore this trip" [ref=f1e90] [cursor=pointer]:
+              - /url: /destinations/hunza-valley
+            - link "Ask on WhatsApp" [ref=f1e93] [cursor=pointer]:
+              - /url: https://wa.me/923000000000?text=Hi%2C%20I'm%20interested%20in%3A%20Hunza%20Valley%20%C2%B7%20Gilgit-Baltistan
+        - generic [ref=f1e94]:
+          - generic [ref=f1e95]:
+            - generic [ref=f1e96]: From
+            - strong [ref=f1e97]: PKR 54,900
+            - text: 6 days · Northern tours
+          - tablist "Choose slide" [ref=f1e98]:
+            - 'tab "Slide 1: Hunza Valley · Gilgit-Baltistan" [selected] [ref=f1e99] [cursor=pointer]':
+              - generic [ref=f1e100]: Hunza Valley
+            - 'tab "Slide 2: Makkah & Madinah" [ref=f1e103] [cursor=pointer]':
+              - generic [ref=f1e104]: Makkah & Madinah
+            - 'tab "Slide 3: Dubai · United Arab Emirates" [ref=f1e106] [cursor=pointer]':
+              - generic [ref=f1e107]: Dubai
+            - 'tab "Slide 4: 60+ countries · Air tickets" [ref=f1e109] [cursor=pointer]':
+              - generic [ref=f1e110]: 60+ countries
+            - 'tab "Slide 5: Maldives · Bali · Langkawi" [ref=f1e112] [cursor=pointer]':
+              - generic [ref=f1e113]: Maldives
+          - generic [ref=f1e115]:
+            - generic [ref=f1e116]: 01 / 05
+            - button "Previous slide" [ref=f1e117] [cursor=pointer]
+            - button "Pause slideshow" [ref=f1e120] [cursor=pointer]
+            - button "Next slide" [ref=f1e124] [cursor=pointer]
+      - region "Plan your trip in seconds" [ref=f1e127]:
+        - generic [ref=f1e128]:
+          - generic [ref=f1e129]:
+            - heading [level=2] [ref=f1e130]:
+              - text: Plan your trip
+              - emphasis [ref=f1e131]: in seconds
+            - tablist "Trip type" [ref=f1e132]:
+              - tab "Flights" [selected] [ref=f1e133] [cursor=pointer]
+              - tab "Umrah" [ref=f1e136] [cursor=pointer]
+              - tab "Tours" [ref=f1e139] [cursor=pointer]
+              - tab "Visa" [ref=f1e142] [cursor=pointer]
+              - tab "Car" [ref=f1e146] [cursor=pointer]
+          - tabpanel [ref=f1e151]:
+            - generic [ref=f1e152]:
+              - generic [ref=f1e153]: From
+              - textbox "From" [ref=f1e154]:
+                - /placeholder: Karachi (KHI)
+            - generic [ref=f1e155]:
+              - generic [ref=f1e156]: To
+              - textbox "To" [ref=f1e157]:
+                - /placeholder: Dubai (DXB)
+            - generic [ref=f1e158]:
+              - generic [ref=f1e159]: Depart
+              - textbox "Depart" [ref=f1e160]:
+                - /placeholder: " "
+            - generic [ref=f1e161]:
+              - generic [ref=f1e162]: Travellers
+              - textbox "Travellers" [ref=f1e163]:
+                - /placeholder: 2 adults
+            - button "Get prices" [ref=f1e164] [cursor=pointer]
+          - paragraph [ref=f1e168]: Free quote in 30 minutes · No booking fee · Pay in PKR
+      - region "Why travellers trust us" [ref=f1e171]:
+        - list [ref=f1e172]:
+          - listitem [ref=f1e173]:
+            - generic [ref=f1e174]: 4.9/5
+            - generic [ref=f1e175]: 1,280 Google reviews
+          - listitem [ref=f1e176]:
+            - generic [ref=f1e180]: DTS-licensed agency
+          - listitem [ref=f1e181]:
+            - generic [ref=f1e184]: IATA-accredited ticketing
+          - listitem [ref=f1e185]:
+            - generic [ref=f1e188]: 24/7 WhatsApp support
+          - listitem [ref=f1e189]:
+            - generic [ref=f1e193]: Pay in PKR · JazzCash · Easypaisa
+      - region "A Pakistani travel agency with a worldwide reach." [ref=f1e194]:
+        - generic [ref=f1e195]:
+          - generic [ref=f1e196]:
+            - generic [ref=f1e197]: Who we are
+            - heading [level=2] [ref=f1e198]:
+              - text: A Pakistani travel agency with a
+              - emphasis [ref=f1e199]: worldwide
+              - text: reach.
+          - paragraph [ref=f1e200]:
+            - strong [ref=f1e201]: Baba Travels & Tours
+            - text: is a travel agency in Karachi, Lahore and Islamabad that books air tickets, Umrah and Hajj packages, northern Pakistan tours, international holidays, visas, hotels, car rental and airport transfers. Travellers get a free quote in about 30 minutes, clear prices in PKR, and 24/7 WhatsApp support from departure to return.
+      - region "Everything your journey needs, under one roof." [ref=f1e202]:
+        - generic [ref=f1e203]:
+          - generic [ref=f1e204]: Services
+          - heading [level=2] [ref=f1e205]:
+            - text: Everything your journey needs,
+            - emphasis [ref=f1e206]: under one roof.
+          - paragraph [ref=f1e207]: From a single ticket to a 40-person Umrah group — one team, one WhatsApp thread, one invoice.
+        - generic [ref=f1e208]:
+          - link [ref=f1e209] [cursor=pointer]:
+            - /url: /services/air-tickets
+            - heading "Air tickets" [level=3] [ref=f1e213]
+            - paragraph [ref=f1e214]: Domestic & international fares on every major airline, with 24/7 rebooking help.
+            - generic [ref=f1e215]: Learn more
+            - generic [aria-hidden] [ref=f1e219]: "01"
+          - link [ref=f1e220] [cursor=pointer]:
+            - /url: /services/umrah-hajj-packages
+            - heading "Umrah & Hajj packages" [level=3] [ref=f1e224]
+            - paragraph [ref=f1e225]: Visa, flights, Haram-close hotels and ziyarat — one package, one team.
+            - generic [ref=f1e226]: Learn more
+            - generic [aria-hidden] [ref=f1e230]: "02"
+          - link [ref=f1e231] [cursor=pointer]:
+            - /url: /services/holiday-tour-packages
+            - heading "Holiday tour packages" [level=3] [ref=f1e235]
+            - paragraph [ref=f1e236]: Northern Pakistan and international holidays, from budget to luxury.
+            - generic [ref=f1e237]: Learn more
+            - generic [aria-hidden] [ref=f1e241]: "03"
+          - link [ref=f1e242] [cursor=pointer]:
+            - /url: /services/visa-assistance
+            - heading "Visa assistance" [level=3] [ref=f1e247]
+            - paragraph [ref=f1e248]: Document checklists, appointments and filing for 40+ countries.
+            - generic [ref=f1e249]: Learn more
+            - generic [aria-hidden] [ref=f1e253]: "04"
+          - link [ref=f1e254] [cursor=pointer]:
+            - /url: /services/hotel-booking
+            - heading "Hotel booking" [level=3] [ref=f1e259]
+            - paragraph [ref=f1e260]: Negotiated rates in Pakistan, the Gulf and beyond.
+            - generic [ref=f1e261]: Learn more
+            - generic [aria-hidden] [ref=f1e265]: "05"
+          - link [ref=f1e266] [cursor=pointer]:
+            - /url: /services/car-rental
+            - heading "Car rental & chauffeur" [level=3] [ref=f1e272]
+            - paragraph [ref=f1e273]: Sedans, SUVs and coasters with experienced drivers.
+            - generic [ref=f1e274]: Learn more
+            - generic [aria-hidden] [ref=f1e278]: "06"
+          - link [ref=f1e279] [cursor=pointer]:
+            - /url: /services/airport-transfers
+            - heading "Airport transfers" [level=3] [ref=f1e283]
+            - paragraph [ref=f1e284]: Meet-and-greet pickups at KHI, LHE, ISB, JED, MED and DXB.
+            - generic [ref=f1e285]: Learn more
+            - generic [aria-hidden] [ref=f1e289]: "07"
+          - link [ref=f1e290] [cursor=pointer]:
+            - /url: /services/intercity-coach-booking
+            - heading "Intercity coach booking" [level=3] [ref=f1e296]
+            - paragraph [ref=f1e297]: Seats on premium coaches between 30+ Pakistani cities.
+            - generic [ref=f1e298]: Learn more
+            - generic [aria-hidden] [ref=f1e302]: "08"
+          - link [ref=f1e303] [cursor=pointer]:
+            - /url: /services/corporate-travel
+            - heading "Corporate travel" [level=3] [ref=f1e308]
+            - paragraph [ref=f1e309]: Monthly invoicing, policy control and a dedicated travel desk.
+            - generic [ref=f1e310]: Learn more
+            - generic [aria-hidden] [ref=f1e314]: "09"
+          - link [ref=f1e315] [cursor=pointer]:
+            - /url: /services/cargo-courier
+            - heading "Cargo & courier" [level=3] [ref=f1e321]
+            - paragraph [ref=f1e322]: Send parcels and excess baggage between Pakistan and the Gulf, UK & beyond.
+            - generic [ref=f1e323]: Learn more
+            - generic [aria-hidden] [ref=f1e327]: "10"
+      - region "This season’s most-booked trips" [ref=f1e328]:
+        - generic [ref=f1e329]:
+          - generic [ref=f1e330]:
+            - generic [ref=f1e331]:
+              - generic [ref=f1e332]: Packages
+              - heading [level=2] [ref=f1e333]:
+                - text: This season’s
+                - emphasis [ref=f1e334]: most-booked
+                - text: trips
+            - link "All packages" [ref=f1e335] [cursor=pointer]:
+              - /url: /packages
+          - generic [ref=f1e338]:
+            - article [ref=f1e339]:
+              - generic [ref=f1e340]:
+                - generic [ref=f1e341]: Most booked
+                - generic [ref=f1e342]: Umrah
+              - generic [ref=f1e343]:
+                - heading "Family Umrah" [level=3] [ref=f1e344]
+                - paragraph [ref=f1e345]: 21 nights · 4★ · 400 m from Haram
+                - list [ref=f1e348]:
+                  - listitem [ref=f1e349]: Visa + direct flights
+                  - listitem [ref=f1e352]: Private family transport
+                  - listitem [ref=f1e355]: Guided ziyarat + briefing
+                - generic [ref=f1e358]:
+                  - generic [ref=f1e359]:
+                    - generic [ref=f1e360]: from / person
+                    - strong [ref=f1e361]: PKR 365,000
+                  - link "Book Family Umrah" [ref=f1e362] [cursor=pointer]:
+                    - /url: /quote?service=Umrah&package=umrah-standard
+                    - text: Book
+            - article [ref=f1e363]:
+              - generic [ref=f1e364]:
+                - generic [ref=f1e365]: Premium
+                - generic [ref=f1e366]: Umrah
+              - generic [ref=f1e367]:
+                - heading "Premium Umrah" [level=3] [ref=f1e368]
+                - paragraph [ref=f1e369]: 14 nights · 5★ · Haram-facing
+                - list [ref=f1e372]:
+                  - listitem [ref=f1e373]: Visa + business-class option
+                  - listitem [ref=f1e376]: GMC private transport
+                  - listitem [ref=f1e379]: Dedicated Saudi-side host
+                - generic [ref=f1e382]:
+                  - generic [ref=f1e383]:
+                    - generic [ref=f1e384]: from / person
+                    - strong [ref=f1e385]: PKR 540,000
+                  - link "Book Premium Umrah" [ref=f1e386] [cursor=pointer]:
+                    - /url: /quote?service=Umrah&package=umrah-premium
+                    - text: Book
+            - article [ref=f1e387]:
+              - generic [ref=f1e388]:
+                - generic [ref=f1e389]: Weekly departures
+                - generic [ref=f1e390]: Northern Pakistan
+              - generic [ref=f1e391]:
+                - heading "Hunza & Khunjerab" [level=3] [ref=f1e392]
+                - paragraph [ref=f1e393]: 6 days · Hotels + breakfast & dinner
+                - list [ref=f1e396]:
+                  - listitem [ref=f1e397]: Attabad Lake & Passu Cones
+                  - listitem [ref=f1e400]: Khunjerab Pass (China border)
+                  - listitem [ref=f1e403]: AC coaster from Islamabad
+                - generic [ref=f1e406]:
+                  - generic [ref=f1e407]:
+                    - generic [ref=f1e408]: from / person
+                    - strong [ref=f1e409]: PKR 54,900
+                  - link "Book Hunza & Khunjerab" [ref=f1e410] [cursor=pointer]:
+                    - /url: /quote?service=Northern%20Pakistan&package=hunza-6d
+                    - text: Book
+            - article [ref=f1e411]:
+              - generic [ref=f1e412]: Northern Pakistan
+              - generic [ref=f1e414]:
+                - heading "Skardu & Deosai" [level=3] [ref=f1e415]
+                - paragraph [ref=f1e416]: 7 days · Hotels + meals
+                - list [ref=f1e419]:
+                  - listitem [ref=f1e420]: Shangrila & Upper Kachura
+                  - listitem [ref=f1e423]: Deosai Plains jeep safari
+                  - listitem [ref=f1e426]: Flights or road option
+                - generic [ref=f1e429]:
+                  - generic [ref=f1e430]:
+                    - generic [ref=f1e431]: from / person
+                    - strong [ref=f1e432]: PKR 69,500
+                  - link "Book Skardu & Deosai" [ref=f1e433] [cursor=pointer]:
+                    - /url: /quote?service=Northern%20Pakistan&package=skardu-7d
+                    - text: Book
+            - article [ref=f1e434]:
+              - generic [ref=f1e435]:
+                - generic [ref=f1e436]: Visa included
+                - generic [ref=f1e437]: International
+              - generic [ref=f1e438]:
+                - heading "Dubai Getaway" [level=3] [ref=f1e439]
+                - paragraph [ref=f1e440]: 4 nights · 4★ · Downtown/Deira
+                - list [ref=f1e443]:
+                  - listitem [ref=f1e444]: UAE visit visa
+                  - listitem [ref=f1e447]: Desert safari + dhow cruise
+                  - listitem [ref=f1e450]: Airport transfers
+                - generic [ref=f1e453]:
+                  - generic [ref=f1e454]:
+                    - generic [ref=f1e455]: from / person
+                    - strong [ref=f1e456]: PKR 119,000
+                  - link "Book Dubai Getaway" [ref=f1e457] [cursor=pointer]:
+                    - /url: /quote?service=International&package=dubai-4n
+                    - text: Book
+            - article [ref=f1e458]:
+              - generic [ref=f1e459]: International
+              - generic [ref=f1e461]:
+                - heading "Istanbul & Cappadocia" [level=3] [ref=f1e462]
+                - paragraph [ref=f1e463]: 7 nights · 4★ hotels
+                - list [ref=f1e466]:
+                  - listitem [ref=f1e467]: Bosphorus cruise
+                  - listitem [ref=f1e470]: Cappadocia balloon option
+                  - listitem [ref=f1e473]: Domestic flight included
+                - generic [ref=f1e476]:
+                  - generic [ref=f1e477]:
+                    - generic [ref=f1e478]: from / person
+                    - strong [ref=f1e479]: PKR 315,000
+                  - link "Book Istanbul & Cappadocia" [ref=f1e480] [cursor=pointer]:
+                    - /url: /quote?service=International&package=turkey-7n
+                    - text: Book
+      - region "Where Pakistan travels next" [ref=f1e481]:
+        - generic [ref=f1e483]:
+          - generic [ref=f1e484]: Destinations
+          - heading [level=2] [ref=f1e485]:
+            - text: Where Pakistan
+            - emphasis [ref=f1e486]: travels
+            - text: next
+          - paragraph [ref=f1e487]: From the Karakoram to the Indian Ocean — swipe through our travellers’ favourite places.
+        - generic "Destinations, scroll horizontally" [ref=f1e488]:
+          - link "Hunza Valley, Gilgit-Baltistan, Pakistan Gilgit-Baltistan, Pakistan Hunza Valley 5–7 days · from PKR 54,900" [ref=f1e489] [cursor=pointer]:
+            - /url: /destinations/hunza-valley
+            - img "Hunza Valley, Gilgit-Baltistan, Pakistan" [ref=f1e490]
+            - generic [ref=f1e492]:
+              - generic [ref=f1e493]: Gilgit-Baltistan, Pakistan
+              - heading "Hunza Valley" [level=3] [ref=f1e494]
+              - generic [ref=f1e495]: 5–7 days · from PKR 54,900
+          - link "Skardu, Gilgit-Baltistan, Pakistan Gilgit-Baltistan, Pakistan Skardu 6–8 days · from PKR 69,500" [ref=f1e500] [cursor=pointer]:
+            - /url: /destinations/skardu
+            - img "Skardu, Gilgit-Baltistan, Pakistan" [ref=f1e501]
+            - generic [ref=f1e503]:
+              - generic [ref=f1e504]: Gilgit-Baltistan, Pakistan
+              - heading "Skardu" [level=3] [ref=f1e505]
+              - generic [ref=f1e506]: 6–8 days · from PKR 69,500
+          - link "Swat & Kalam, Khyber Pakhtunkhwa, Pakistan Khyber Pakhtunkhwa, Pakistan Swat & Kalam 3–4 days · from PKR 29,900" [ref=f1e511] [cursor=pointer]:
+            - /url: /destinations/swat
+            - img "Swat & Kalam, Khyber Pakhtunkhwa, Pakistan" [ref=f1e512]
+            - generic [ref=f1e514]:
+              - generic [ref=f1e515]: Khyber Pakhtunkhwa, Pakistan
+              - heading "Swat & Kalam" [level=3] [ref=f1e516]
+              - generic [ref=f1e517]: 3–4 days · from PKR 29,900
+          - link "Dubai, United Arab Emirates United Arab Emirates Dubai 4–5 nights · from PKR 119,000" [ref=f1e522] [cursor=pointer]:
+            - /url: /destinations/dubai
+            - img "Dubai, United Arab Emirates" [ref=f1e523]
+            - generic [ref=f1e525]:
+              - generic [ref=f1e526]: United Arab Emirates
+              - heading "Dubai" [level=3] [ref=f1e527]
+              - generic [ref=f1e528]: 4–5 nights · from PKR 119,000
+          - link "Maldives, Indian Ocean Indian Ocean Maldives 4–6 nights · from PKR 245,000" [ref=f1e533] [cursor=pointer]:
+            - /url: /destinations/maldives
+            - img "Maldives, Indian Ocean" [ref=f1e534]
+            - generic [ref=f1e536]:
+              - generic [ref=f1e537]: Indian Ocean
+              - heading "Maldives" [level=3] [ref=f1e538]
+              - generic [ref=f1e539]: 4–6 nights · from PKR 245,000
+      - region "From three Pakistani hubs to 60+ countries." [ref=f1e544]:
+        - generic [ref=f1e545]:
+          - generic [ref=f1e546]:
+            - generic [ref=f1e547]:
+              - generic [ref=f1e548]: Our network
+              - heading [level=2] [ref=f1e549]:
+                - text: From three Pakistani hubs to
+                - emphasis [ref=f1e550]: 60+ countries.
+              - paragraph [ref=f1e551]: Direct and one-stop routes from Karachi, Lahore and Islamabad to the Gulf, Europe, North America and Asia, with partner desks in Dubai, Jeddah and Istanbul.
+            - generic [ref=f1e552]:
+              - generic [ref=f1e553]:
+                - term [ref=f1e554]: Years in travel
+                - definition [ref=f1e555]:
+                  - generic [ref=f1e556]: 15+
+              - generic [ref=f1e557]:
+                - term [ref=f1e558]: Travellers served
+                - definition [ref=f1e559]:
+                  - generic [ref=f1e560]: 48,000+
+              - generic [ref=f1e561]:
+                - term [ref=f1e562]: Countries covered
+                - definition [ref=f1e563]:
+                  - generic [ref=f1e564]: 60+
+              - generic [ref=f1e565]:
+                - term [ref=f1e566]: Average rating
+                - definition [ref=f1e567]:
+                  - generic [ref=f1e568]: 4.9★
+          - generic [ref=f1e569]:
+            - img "Baba Travels route network Routes from Karachi, Lahore and Islamabad to Jeddah, Madinah, Dubai, Istanbul, London, Toronto, Kuala Lumpur, Bangkok, Baku and Malé." [ref=f1e570]:
+              - 'button "Jeddah: Umrah · 4h 05m direct" [ref=f1e1133] [cursor=pointer]':
+                - generic [ref=f1e1135]: JED
+              - 'button "Madinah: Umrah · 4h 40m direct" [ref=f1e1136] [cursor=pointer]':
+                - generic [ref=f1e1138]: MED
+              - 'button "Dubai: Holidays · 2h 10m direct" [ref=f1e1139] [cursor=pointer]':
+                - generic [ref=f1e1141]: DXB
+              - 'button "Istanbul: Tours · 6h 15m direct" [ref=f1e1142] [cursor=pointer]':
+                - generic [ref=f1e1144]: IST
+              - 'button "London: Diaspora · 8h 30m direct" [ref=f1e1145] [cursor=pointer]':
+                - generic [ref=f1e1147]: LHR
+              - 'button "Toronto: Diaspora · 1 stop" [ref=f1e1148] [cursor=pointer]':
+                - generic [ref=f1e1150]: YYZ
+              - 'button "Kuala Lumpur: Tours · 1 stop" [ref=f1e1151] [cursor=pointer]':
+                - generic [ref=f1e1153]: KUL
+              - 'button "Bangkok: Tours · 1 stop" [ref=f1e1154] [cursor=pointer]':
+                - generic [ref=f1e1156]: BKK
+              - 'button "Baku: Tours · 1 stop" [ref=f1e1157] [cursor=pointer]':
+                - generic [ref=f1e1159]: GYD
+              - 'button "Malé: Honeymoon · 1 stop" [ref=f1e1160] [cursor=pointer]':
+                - generic [ref=f1e1162]: MLE
+              - generic [ref=f1e1163]: KHI
+              - generic [ref=f1e1167]: LHE
+              - generic [ref=f1e1171]: ISB
+            - generic [ref=f1e1175]:
+              - strong [ref=f1e1176]: Hover a city
+              - generic [ref=f1e1177]: Routes from Karachi, Lahore & Islamabad
+      - region "Booked in four calm steps" [ref=f1e1178]:
+        - generic [ref=f1e1179]:
+          - generic [ref=f1e1180]:
+            - generic [ref=f1e1181]: How it works
+            - heading [level=2] [ref=f1e1182]:
+              - text: Booked in four
+              - emphasis [ref=f1e1183]: calm
+              - text: steps
+          - list [ref=f1e1184]:
+            - listitem [ref=f1e1186]:
+              - generic [ref=f1e1187]: "1"
+              - heading "Tell us your plan" [level=3] [ref=f1e1188]
+              - paragraph [ref=f1e1189]: Share dates, budget and travellers through the form or WhatsApp — it takes two minutes.
+            - listitem [ref=f1e1190]:
+              - generic [ref=f1e1191]: "2"
+              - heading "Get options in 30 minutes" [level=3] [ref=f1e1192]
+              - paragraph [ref=f1e1193]: A travel advisor sends 2–3 clear options with total prices in PKR, no hidden fees.
+            - listitem [ref=f1e1194]:
+              - generic [ref=f1e1195]: "3"
+              - heading "Confirm & pay securely" [level=3] [ref=f1e1196]
+              - paragraph [ref=f1e1197]: Pay by bank transfer, card or mobile wallet. Tickets and vouchers arrive on WhatsApp and email.
+            - listitem [ref=f1e1198]:
+              - generic [ref=f1e1199]: "4"
+              - heading "Travel with backup" [level=3] [ref=f1e1200]
+              - paragraph [ref=f1e1201]: A real person answers 24/7 on WhatsApp while you travel, from flight delays to hotel changes.
+      - region "Travel with people who pick up." [ref=f1e1202]:
+        - generic [ref=f1e1203]:
+          - generic [ref=f1e1204]:
+            - img "Aircraft above sunrise clouds" [ref=f1e1205]
+            - generic [ref=f1e1206]:
+              - generic [ref=f1e1207]: 24/7
+              - generic [ref=f1e1208]: Real people on WhatsApp — even at 3 a.m. in Jeddah.
+          - generic [ref=f1e1209]:
+            - generic [ref=f1e1210]:
+              - generic [ref=f1e1211]: Why Baba Travels
+              - heading [level=2] [ref=f1e1212]:
+                - text: Travel with people who
+                - emphasis [ref=f1e1213]: pick up.
+            - list [ref=f1e1214]:
+              - listitem [ref=f1e1215]:
+                - generic [ref=f1e1220]:
+                  - heading "Licensed & accountable" [level=3] [ref=f1e1221]
+                  - paragraph [ref=f1e1222]: Registered with the Department of Tourist Services and IATA-accredited ticketing. (CONFIRM licence numbers)
+              - listitem [ref=f1e1223]:
+                - generic [ref=f1e1228]:
+                  - heading "Clear PKR pricing" [level=3] [ref=f1e1229]
+                  - paragraph [ref=f1e1230]: Every quote shows the full price in rupees — taxes, visa and transfers included.
+              - listitem [ref=f1e1231]:
+                - generic [ref=f1e1235]:
+                  - heading "Humans on WhatsApp, 24/7" [level=3] [ref=f1e1236]
+                  - paragraph [ref=f1e1237]: Message us at 3 a.m. from Jeddah airport and a real advisor replies.
+              - listitem [ref=f1e1238]:
+                - generic [ref=f1e1245]:
+                  - heading "Family-first planning" [level=3] [ref=f1e1246]
+                  - paragraph [ref=f1e1247]: Wheelchair help, elderly-friendly hotels and mahram-aware Umrah groups.
+              - listitem [ref=f1e1248]:
+                - generic [ref=f1e1253]:
+                  - heading "Negotiated rates" [level=3] [ref=f1e1254]
+                  - paragraph [ref=f1e1255]: Direct contracts with airlines and hotels mean better fares than DIY booking.
+              - listitem [ref=f1e1256]:
+                - generic [ref=f1e1263]:
+                  - heading "Local here, local there" [level=3] [ref=f1e1264]
+                  - paragraph [ref=f1e1265]: Partner desks in Dubai, Jeddah and Istanbul handle problems on the ground.
+      - region "Rated 4.9/5 by 1,280 travellers" [ref=f1e1266]:
+        - generic [ref=f1e1268]:
+          - generic [ref=f1e1269]: Reviews
+          - heading [level=2] [ref=f1e1270]:
+            - text: Rated
+            - emphasis [ref=f1e1271]: 4.9/5
+            - text: by 1,280 travellers
+        - generic [ref=f1e1272]:
+          - generic [ref=f1e1274]:
+            - figure "Ayesha R. Karachi · Family Umrah, 21 nights" [ref=f1e1275]:
+              - generic "5 out of 5 stars" [ref=f1e1276]: ★★★★★
+              - blockquote [ref=f1e1277]: “They handled my parents’ wheelchair assistance at both airports and the hotel was a short walk from the Haram. My father still talks about it.”
+              - generic [ref=f1e1278]:
+                - generic [aria-hidden] [ref=f1e1279]: A
+                - generic [ref=f1e1280]:
+                  - strong [ref=f1e1281]: Ayesha R.
+                  - generic [ref=f1e1282]: Karachi · Family Umrah, 21 nights
+            - figure "Hamza Q. Lahore · Hunza & Khunjerab" [ref=f1e1283]:
+              - generic "5 out of 5 stars" [ref=f1e1284]: ★★★★★
+              - blockquote [ref=f1e1285]: “Driver was careful on the KKH, hotels were clean and the guide knew every stop. Worth every rupee.”
+              - generic [ref=f1e1286]:
+                - generic [aria-hidden] [ref=f1e1287]: H
+                - generic [ref=f1e1288]:
+                  - strong [ref=f1e1289]: Hamza Q.
+                  - generic [ref=f1e1290]: Lahore · Hunza & Khunjerab
+            - figure "Sana & Bilal Islamabad · Maldives honeymoon" [ref=f1e1291]:
+              - generic "5 out of 5 stars" [ref=f1e1292]: ★★★★★
+              - blockquote [ref=f1e1293]: “Water villa upgrade, flowers on the bed, smooth transfers. They answered WhatsApp within minutes the whole trip.”
+              - generic [ref=f1e1294]:
+                - generic [aria-hidden] [ref=f1e1295]: S
+                - generic [ref=f1e1296]:
+                  - strong [ref=f1e1297]: Sana & Bilal
+                  - generic [ref=f1e1298]: Islamabad · Maldives honeymoon
+            - figure [aria-hidden] [ref=f1e1299]:
+              - generic [ref=f1e1300]: ★★★★★
+              - blockquote [ref=f1e1301]: “They handled my parents’ wheelchair assistance at both airports and the hotel was a short walk from the Haram. My father still talks about it.”
+              - generic [ref=f1e1302]:
+                - generic [aria-hidden] [ref=f1e1303]: A
+                - generic [ref=f1e1304]:
+                  - strong [ref=f1e1305]: Ayesha R.
+                  - generic [ref=f1e1306]: Karachi · Family Umrah, 21 nights
+            - figure [aria-hidden] [ref=f1e1307]:
+              - generic [ref=f1e1308]: ★★★★★
+              - blockquote [ref=f1e1309]: “Driver was careful on the KKH, hotels were clean and the guide knew every stop. Worth every rupee.”
+              - generic [ref=f1e1310]:
+                - generic [aria-hidden] [ref=f1e1311]: H
+                - generic [ref=f1e1312]:
+                  - strong [ref=f1e1313]: Hamza Q.
+                  - generic [ref=f1e1314]: Lahore · Hunza & Khunjerab
+            - figure [aria-hidden] [ref=f1e1315]:
+              - generic [ref=f1e1316]: ★★★★★
+              - blockquote [ref=f1e1317]: “Water villa upgrade, flowers on the bed, smooth transfers. They answered WhatsApp within minutes the whole trip.”
+              - generic [ref=f1e1318]:
+                - generic [aria-hidden] [ref=f1e1319]: S
+                - generic [ref=f1e1320]:
+                  - strong [ref=f1e1321]: Sana & Bilal
+                  - generic [ref=f1e1322]: Islamabad · Maldives honeymoon
+          - generic [ref=f1e1324]:
+            - figure "Imran K. Manchester, UK · Air tickets MAN–LHE" [ref=f1e1325]:
+              - generic "5 out of 5 stars" [ref=f1e1326]: ★★★★★
+              - blockquote [ref=f1e1327]: “Got a better fare than online sites and they changed my return date for free when my plans moved.”
+              - generic [ref=f1e1328]:
+                - generic [aria-hidden] [ref=f1e1329]: I
+                - generic [ref=f1e1330]:
+                  - strong [ref=f1e1331]: Imran K.
+                  - generic [ref=f1e1332]: Manchester, UK · Air tickets MAN–LHE
+            - figure "Fatima Z. Multan · Dubai visa + package" [ref=f1e1333]:
+              - generic "5 out of 5 stars" [ref=f1e1334]: ★★★★★
+              - blockquote [ref=f1e1335]: “Visa came in four days. The checklist they gave made it simple. Desert safari was the highlight.”
+              - generic [ref=f1e1336]:
+                - generic [aria-hidden] [ref=f1e1337]: F
+                - generic [ref=f1e1338]:
+                  - strong [ref=f1e1339]: Fatima Z.
+                  - generic [ref=f1e1340]: Multan · Dubai visa + package
+            - figure "Usman T. Faisalabad · Corporate travel" [ref=f1e1341]:
+              - generic "4 out of 5 stars" [ref=f1e1342]: ★★★★★
+              - blockquote [ref=f1e1343]: “Monthly invoicing and one point of contact made our team travel much easier to manage.”
+              - generic [ref=f1e1344]:
+                - generic [aria-hidden] [ref=f1e1345]: U
+                - generic [ref=f1e1346]:
+                  - strong [ref=f1e1347]: Usman T.
+                  - generic [ref=f1e1348]: Faisalabad · Corporate travel
+            - figure [aria-hidden] [ref=f1e1349]:
+              - generic [ref=f1e1350]: ★★★★★
+              - blockquote [ref=f1e1351]: “Got a better fare than online sites and they changed my return date for free when my plans moved.”
+              - generic [ref=f1e1352]:
+                - generic [aria-hidden] [ref=f1e1353]: I
+                - generic [ref=f1e1354]:
+                  - strong [ref=f1e1355]: Imran K.
+                  - generic [ref=f1e1356]: Manchester, UK · Air tickets MAN–LHE
+            - figure [aria-hidden] [ref=f1e1357]:
+              - generic [ref=f1e1358]: ★★★★★
+              - blockquote [ref=f1e1359]: “Visa came in four days. The checklist they gave made it simple. Desert safari was the highlight.”
+              - generic [ref=f1e1360]:
+                - generic [aria-hidden] [ref=f1e1361]: F
+                - generic [ref=f1e1362]:
+                  - strong [ref=f1e1363]: Fatima Z.
+                  - generic [ref=f1e1364]: Multan · Dubai visa + package
+            - figure [aria-hidden] [ref=f1e1365]:
+              - generic [ref=f1e1366]: ★★★★★
+              - blockquote [ref=f1e1367]: “Monthly invoicing and one point of contact made our team travel much easier to manage.”
+              - generic [ref=f1e1368]:
+                - generic [aria-hidden] [ref=f1e1369]: U
+                - generic [ref=f1e1370]:
+                  - strong [ref=f1e1371]: Usman T.
+                  - generic [ref=f1e1372]: Faisalabad · Corporate travel
+      - region "Questions travellers ask us most" [ref=f1e1373]:
+        - generic [ref=f1e1374]:
+          - generic [ref=f1e1375]:
+            - generic [ref=f1e1376]: FAQ
+            - heading [level=2] [ref=f1e1377]:
+              - text: Questions travellers
+              - emphasis [ref=f1e1378]: ask us
+              - text: most
+            - paragraph [ref=f1e1379]: Can’t find yours? Ask on WhatsApp — we reply in minutes.
+          - generic [ref=f1e1380]:
+            - generic [ref=f1e1381]:
+              - heading [level=3] [ref=f1e1382]:
+                - button "How much does an Umrah package from Pakistan cost?" [expanded] [ref=f1e1383] [cursor=pointer]
+              - region "How much does an Umrah package from Pakistan cost?" [ref=f1e1386]:
+                - paragraph [ref=f1e1388]: Umrah packages with Baba Travels start from PKR 289,000 per person on a sharing basis for 14 nights, including visa, return flights, hotels and transport. Family and premium packages near the Haram range from PKR 365,000 to PKR 540,000.
+            - generic [ref=f1e1389]:
+              - heading [level=3] [ref=f1e1390]:
+                - button "How do I book a tour or ticket with Baba Travels?" [ref=f1e1391] [cursor=pointer]
+              - region "How do I book a tour or ticket with Baba Travels?":
+                - paragraph [ref=f1e1394]: Send your dates and number of travellers through our quote form or WhatsApp. An advisor replies with options within 30 minutes during office hours. Once you confirm and pay, tickets and vouchers are sent by WhatsApp and email.
+            - generic [ref=f1e1395]:
+              - heading [level=3] [ref=f1e1396]:
+                - button "Which payment methods do you accept?" [ref=f1e1397] [cursor=pointer]
+              - region "Which payment methods do you accept?":
+                - paragraph [ref=f1e1400]: We accept bank transfer, debit and credit cards, JazzCash and Easypaisa. Overseas Pakistanis can pay from the UK, UAE or Saudi Arabia by bank transfer.
+            - generic [ref=f1e1401]:
+              - heading [level=3] [ref=f1e1402]:
+                - button "Can you help with a UAE or Saudi visit visa?" [ref=f1e1403] [cursor=pointer]
+              - region "Can you help with a UAE or Saudi visit visa?":
+                - paragraph [ref=f1e1406]: Yes. We process UAE, Saudi, Turkey, Malaysia, UK and Schengen visas. UAE visit visas typically take 3–5 working days with complete documents.
+            - generic [ref=f1e1407]:
+              - heading [level=3] [ref=f1e1408]:
+                - button "When is the best time to visit Hunza and Skardu?" [ref=f1e1409] [cursor=pointer]
+              - region "When is the best time to visit Hunza and Skardu?":
+                - paragraph [ref=f1e1412]: April to October. April brings cherry and apricot blossoms, June to September is best for Deosai and high passes, and October has autumn colours.
+            - generic [ref=f1e1413]:
+              - heading [level=3] [ref=f1e1414]:
+                - button "Do you offer support while I am travelling?" [ref=f1e1415] [cursor=pointer]
+              - region "Do you offer support while I am travelling?":
+                - paragraph [ref=f1e1418]: Yes. Our WhatsApp line is answered 24/7 by a real advisor, and partner desks in Dubai, Jeddah and Istanbul can help on the ground.
+      - region "Plan smarter with our guides" [ref=f1e1419]:
+        - generic [ref=f1e1421]:
+          - generic [ref=f1e1422]: Travel guides
+          - heading [level=2] [ref=f1e1423]:
+            - text: Plan smarter with our
+            - emphasis [ref=f1e1424]: guides
+        - generic [ref=f1e1425]:
+          - article [ref=f1e1426]:
+            - link [ref=f1e1427] [cursor=pointer]:
+              - /url: /blog/umrah-checklist-2026
+            - generic [ref=f1e1428]:
+              - paragraph [ref=f1e1429]:
+                - text: Updated
+                - time [ref=f1e1430]: 2 Nov 2026
+                - text: · 7 min
+              - heading [level=3] [ref=f1e1431]:
+                - 'link "Umrah checklist 2026: documents, packing and first-day plan" [ref=f1e1432] [cursor=pointer]':
+                  - /url: /blog/umrah-checklist-2026
+              - paragraph [ref=f1e1433]: Everything to prepare before you fly, from Nusuk registration to what to carry in your ihram bag.
+              - paragraph [ref=f1e1434]: By Baba Travels Umrah desk
+          - article [ref=f1e1435]:
+            - link [ref=f1e1436] [cursor=pointer]:
+              - /url: /blog/hunza-in-autumn
+            - generic [ref=f1e1437]:
+              - paragraph [ref=f1e1438]:
+                - text: Updated
+                - time [ref=f1e1439]: 18 Oct 2026
+                - text: · 6 min
+              - heading [level=3] [ref=f1e1440]:
+                - 'link "Hunza in autumn: a 6-day route with the best colour" [ref=f1e1441] [cursor=pointer]':
+                  - /url: /blog/hunza-in-autumn
+              - paragraph [ref=f1e1442]: Where to stay, which days to drive, and why late October beats spring for photography.
+              - paragraph [ref=f1e1443]: By Northern tours team
+          - article [ref=f1e1444]:
+            - link [ref=f1e1445] [cursor=pointer]:
+              - /url: /blog/dubai-visa-pakistanis
+            - generic [ref=f1e1446]:
+              - paragraph [ref=f1e1447]:
+                - text: Updated
+                - time [ref=f1e1448]: 10 Nov 2026
+                - text: · 5 min
+              - heading [level=3] [ref=f1e1449]:
+                - 'link "Dubai visit visa for Pakistanis: fees, timing and rejections" [ref=f1e1450] [cursor=pointer]':
+                  - /url: /blog/dubai-visa-pakistanis
+              - paragraph [ref=f1e1451]: The exact documents, current processing times and the mistakes that cause rejections.
+              - paragraph [ref=f1e1452]: By Visa desk
+      - region "Your next journey is one message away." [ref=f1e1453]:
+        - generic [ref=f1e1454]:
+          - generic [ref=f1e1458]: Ready when you are
+          - heading "Your next journey is one message away." [level=2] [ref=f1e1459]
+          - paragraph [ref=f1e1460]: Tell us where and when. A real advisor replies with clear PKR prices in about 30 minutes.
+          - generic [ref=f1e1461]:
+            - link "Get a free quote" [ref=f1e1462] [cursor=pointer]:
+              - /url: /quote
+            - link "WhatsApp us" [ref=f1e1465] [cursor=pointer]:
+              - /url: https://wa.me/923000000000?text=Assalam%20o%20Alaikum%2C%20I%20would%20like%20a%20travel%20quote.
+    - contentinfo [ref=f1e1468]:
+      - generic [ref=f1e1469]:
+        - generic [ref=f1e1470]:
+          - generic [ref=f1e1471]:
+            - generic [ref=f1e1477]:
+              - generic [ref=f1e1478]: Baba Travels
+              - generic [ref=f1e1479]: "& Tours"
+            - paragraph [ref=f1e1480]: Baba Travels & Tours is a Pakistan-based travel agency for air tickets, Umrah and Hajj packages, northern-area and international tours, visa assistance, hotels, car rental and airport transfers.
+            - generic [ref=f1e1481]: ★★★★★ 4.9/5 from 1,280 Google reviews
+            - generic [ref=f1e1482]:
+              - link "Facebook" [ref=f1e1483] [cursor=pointer]:
+                - /url: https://facebook.com/
+              - link "Instagram" [ref=f1e1486] [cursor=pointer]:
+                - /url: https://instagram.com/
+              - link "YouTube" [ref=f1e1490] [cursor=pointer]:
+                - /url: https://youtube.com/
+              - link "WhatsApp" [ref=f1e1494] [cursor=pointer]:
+                - /url: https://wa.me/923000000000?text=Assalam%20o%20Alaikum%2C%20I%20would%20like%20a%20travel%20quote.
+          - generic [ref=f1e1497]:
+            - generic [ref=f1e1498]:
+              - heading "Services" [level=2] [ref=f1e1499]
+              - list [ref=f1e1500]:
+                - listitem [ref=f1e1501]:
+                  - link "Air tickets" [ref=f1e1502] [cursor=pointer]:
+                    - /url: /services/air-tickets
+                - listitem [ref=f1e1503]:
+                  - link "Umrah & Hajj packages" [ref=f1e1504] [cursor=pointer]:
+                    - /url: /services/umrah-hajj-packages
+                - listitem [ref=f1e1505]:
+                  - link "Holiday tour packages" [ref=f1e1506] [cursor=pointer]:
+                    - /url: /services/holiday-tour-packages
+                - listitem [ref=f1e1507]:
+                  - link "Visa assistance" [ref=f1e1508] [cursor=pointer]:
+                    - /url: /services/visa-assistance
+                - listitem [ref=f1e1509]:
+                  - link "Hotel booking" [ref=f1e1510] [cursor=pointer]:
+                    - /url: /services/hotel-booking
+                - listitem [ref=f1e1511]:
+                  - link "Car rental & chauffeur" [ref=f1e1512] [cursor=pointer]:
+                    - /url: /services/car-rental
+                - listitem [ref=f1e1513]:
+                  - link "Airport transfers" [ref=f1e1514] [cursor=pointer]:
+                    - /url: /services/airport-transfers
+            - generic [ref=f1e1515]:
+              - heading "Destinations" [level=2] [ref=f1e1516]
+              - list [ref=f1e1517]:
+                - listitem [ref=f1e1518]:
+                  - link "Hunza Valley tours" [ref=f1e1519] [cursor=pointer]:
+                    - /url: /destinations/hunza-valley
+                - listitem [ref=f1e1520]:
+                  - link "Skardu tours" [ref=f1e1521] [cursor=pointer]:
+                    - /url: /destinations/skardu
+                - listitem [ref=f1e1522]:
+                  - link "Swat & Kalam tours" [ref=f1e1523] [cursor=pointer]:
+                    - /url: /destinations/swat
+                - listitem [ref=f1e1524]:
+                  - link "Dubai tours" [ref=f1e1525] [cursor=pointer]:
+                    - /url: /destinations/dubai
+                - listitem [ref=f1e1526]:
+                  - link "Maldives tours" [ref=f1e1527] [cursor=pointer]:
+                    - /url: /destinations/maldives
+                - listitem [ref=f1e1528]:
+                  - link "All packages" [ref=f1e1529] [cursor=pointer]:
+                    - /url: /packages
+            - generic [ref=f1e1530]:
+              - heading "Company" [level=2] [ref=f1e1531]
+              - list [ref=f1e1532]:
+                - listitem [ref=f1e1533]:
+                  - link "About us" [ref=f1e1534] [cursor=pointer]:
+                    - /url: /about
+                - listitem [ref=f1e1535]:
+                  - link "Contact & offices" [ref=f1e1536] [cursor=pointer]:
+                    - /url: /contact
+                - listitem [ref=f1e1537]:
+                  - link "Get a quote" [ref=f1e1538] [cursor=pointer]:
+                    - /url: /quote
+                - listitem [ref=f1e1539]:
+                  - link "Travel guides" [ref=f1e1540] [cursor=pointer]:
+                    - /url: /blog/umrah-checklist-2026
+                - listitem [ref=f1e1541]:
+                  - link "Terms & refunds" [ref=f1e1542] [cursor=pointer]:
+                    - /url: /contact
+                - listitem [ref=f1e1543]:
+                  - link "Privacy policy" [ref=f1e1544] [cursor=pointer]:
+                    - /url: /contact
+            - generic [ref=f1e1545]:
+              - heading "Offices" [level=2] [ref=f1e1546]
+              - list [ref=f1e1547]:
+                - listitem [ref=f1e1548]:
+                  - strong [ref=f1e1549]: Karachi
+                  - generic [ref=f1e1550]: Office 12, Shahrah-e-Faisal, Karachi 75400
+                  - link "+92 21 0000 0000" [ref=f1e1551] [cursor=pointer]:
+                    - /url: tel:+922100000000
+                - listitem [ref=f1e1552]:
+                  - strong [ref=f1e1553]: Lahore
+                  - generic [ref=f1e1554]: Main Boulevard, Gulberg III, Lahore 54660
+                  - link "+92 42 0000 0000" [ref=f1e1555] [cursor=pointer]:
+                    - /url: tel:+924200000000
+                - listitem [ref=f1e1556]:
+                  - strong [ref=f1e1557]: Islamabad
+                  - generic [ref=f1e1558]: Blue Area, Jinnah Avenue, Islamabad 44000
+                  - link "+92 51 0000 0000" [ref=f1e1559] [cursor=pointer]:
+                    - /url: tel:+925100000000
+                - listitem [ref=f1e1560]:
+                  - strong [ref=f1e1561]: Dubai
+                  - generic [ref=f1e1562]: Al Karama, Dubai, UAE
+                  - link "+971 4 000 0000" [ref=f1e1563] [cursor=pointer]:
+                    - /url: tel:+97140000000
+        - img [aria-hidden] [ref=f1e1564]:
+          - generic [ref=f1e1565]: Baba Travels
+        - generic [ref=f1e1566]:
+          - generic [ref=f1e1567]: © 2026 Baba Travels & Tours. All rights reserved.
+          - generic [ref=f1e1568]: DTS Licence No. 0000 · IATA 00-0 0000 0
+          - link "Back to top ↑" [ref=f1e1569] [cursor=pointer]:
+            - /url: "#top"
+    - link "Chat with us on WhatsApp" [ref=f1e1570] [cursor=pointer]:
+      - /url: https://wa.me/923000000000?text=Assalam%20o%20Alaikum%2C%20I%20would%20like%20a%20travel%20quote.
+      - generic: Chat with an advisor
